@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Common.fs" />
+    <Compile Include="Anomalies.fs" />
+    <Compile Include="DataStructures.fs" />
+    <Compile Include="Token.fs" />
+    <Compile Include="Strings.fs" />
+    <Compile Include="Matching.fs" />
+    <Compile Include="Clustering.fs" />
+    <Compile Include="Tree.fs" />
+    <Compile Include="Template.fs" />
+    <Compile Include="Learning.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Diffy.Regex\Diffy.Regex.csproj" />
+  </ItemGroup>
+
+</Project>

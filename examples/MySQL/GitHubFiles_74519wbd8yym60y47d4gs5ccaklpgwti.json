@@ -1,0 +1,35 @@
+{
+  "mysqld": {
+    "user": "mysql",
+    "datadir": "/var/lib/mysql",
+    "socket": "/var/lib/mysql/mysql.sock",
+    "character-set-server": "utf8",
+    "skip-character-set-client-handshake": "",
+    "key_buffer_size": "32M",
+    "max_allowed_packet": "1M",
+    "table_open_cache": "1024",
+    "sort_buffer_size": "1M",
+    "read_buffer_size": "1M",
+    "read_rnd_buffer_size": "4M",
+    "myisam_sort_buffer_size": "16M",
+    "query_cache_type": "1",
+    "query_cache_size": "64M",
+    "query_cache_limit": "4M",
+    "thread_cache_size": "180",
+    "innodb_buffer_pool_size": "512M",
+    "innodb_log_file_size": "128M"
+  },
+  "mysql": {
+    "default-character-set": "utf8",
+    "user": "mysql"
+  },
+  "mysqld_safe": {
+    "log-error": "/var/log/mysqld.log",
+    "pid-file": "/var/run/mysqld/mysqld.pid",
+    "open-files-limit": "25600"
+  },
+  "mysqldump": {
+    "default-character-set": "utf8",
+    "max_allowed_packet": "1024M"
+  }
+}

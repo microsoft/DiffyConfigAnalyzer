@@ -1,0 +1,47 @@
+{
+  "client": {
+    "port": "{{ pillar['mariadb_port'] }}",
+    "socket": "{{ pillar['mariadb_tmpdir'] }}/{{ pillar['mariadb_socket'] }}"
+  },
+  "mysqld": {
+    "port": "{{ pillar['mariadb_port'] }}",
+    "socket": "{{ pillar['mariadb_tmpdir'] }}/{{ pillar['mariadb_socket'] }}",
+    "datadir": "{{ pillar['mariadb_datadir'] }}",
+    "skip-external-locking": "",
+    "key_buffer_size": "64M",
+    "max_allowed_packet": "4M",
+    "table_open_cache": "256",
+    "sort_buffer_size": "2M",
+    "net_buffer_length": "32K",
+    "read_buffer_size": "1M",
+    "read_rnd_buffer_size": "2M",
+    "myisam_sort_buffer_size": "32M",
+    "innodb_data_home_dir": "{{ pillar['mariadb_datadir'] }}",
+    "innodb_data_file_path": "ibdata1:10M:autoextend",
+    "innodb_log_group_home_dir": "{{ pillar['mariadb_datadir'] }}",
+    "tmpdir": "/tmp/",
+    "{% if pillar['mariadb_skip_networking'] %}": "",
+    "skip-networking": "",
+    "{% else %}": "",
+    "{% endif %}": "",
+    "log-bin": "{{ grains['host'] }}-mysql-bin",
+    "binlog_format": "mixed",
+    "server-id": "{{ pillar['mariadb_server_id'] }}"
+  },
+  "mysqldump": {
+    "quick": "",
+    "max_allowed_packet": "16M"
+  },
+  "mysql": {
+    "no-auto-rehash": ""
+  },
+  "myisamchk": {
+    "key_buffer_size": "20M",
+    "sort_buffer_size": "20M",
+    "read_buffer": "2M",
+    "write_buffer": "2M"
+  },
+  "mysqlhotcopy": {
+    "interactive-timeout": ""
+  }
+}

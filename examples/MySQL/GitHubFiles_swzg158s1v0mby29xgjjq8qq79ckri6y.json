@@ -1,0 +1,16 @@
+{
+  "client": {
+    "user": "root"
+  },
+  "mysql": {
+    "no-auto-rehash": "",
+    "connect_timeout": "2",
+    "prompt": "'mysql \\h/\\d> '",
+    "no-beep": "",
+    "show-warnings": ""
+  },
+  "_mysql": {},
+  "mysqlhotcopy": {
+    "interactive-timeout": ""
+  }
+}

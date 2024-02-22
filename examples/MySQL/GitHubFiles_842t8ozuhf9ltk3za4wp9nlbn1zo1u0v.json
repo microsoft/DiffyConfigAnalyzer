@@ -1,0 +1,53 @@
+{
+  "client": {
+    "port": "3306",
+    "socket": "/var/run/mysqld/mysqld.sock",
+    "character_set": "latin1",
+    "loose-default-character-set": "latin1"
+  },
+  "mysqld": {
+    "port": "3306",
+    "socket": "/var/run/mysqld/mysqld.sock",
+    "pid-file": "/var/run/mysqld/mysqld.pid",
+    "datadir": "/var/lib/mysql",
+    "skip-locking": "",
+    "myisam-recover": "BACKUP,FORCE",
+    "character-set-server": "latin1",
+    "default-character-set": "latin1",
+    "ssl": "1",
+    "ssl-ca": "/etc/ssl/private/StartSSL.crt",
+    "ssl-cert": "/etc/ssl/private/star_igowo_de.crt",
+    "ssl-key": "/etc/ssl/private/star_igowo_de.key",
+    "key_buffer_size": "16K",
+    "max_allowed_packet": "1M",
+    "table_open_cache": "4",
+    "sort_buffer_size": "64K",
+    "read_buffer_size": "256K",
+    "read_rnd_buffer_size": "256K",
+    "net_buffer_length": "2K",
+    "thread_stack": "128K",
+    "skip-innodb": "",
+    "server-id": "1"
+  },
+  "mysqldump": {
+    "quick": "",
+    "quote-names": "",
+    "max_allowed_packet": "16M"
+  },
+  "mysql": {},
+  "isamchk": {
+    "key_buffer": "8M",
+    "sort_buffer_size": "8M",
+    "read_buffer": "2M",
+    "write_buffer": "2M"
+  },
+  "myisamchk": {
+    "key_buffer": "8M",
+    "sort_buffer_size": "8M",
+    "read_buffer": "2M",
+    "write_buffer": "2M"
+  },
+  "mysqlhotcopy": {
+    "interactive-timeout": ""
+  }
+}

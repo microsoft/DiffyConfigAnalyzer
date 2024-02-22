@@ -1,0 +1,34 @@
+{
+  "mysqld": {
+    "datadir": "/var/lib/mysql",
+    "socket": "/var/lib/mysql/mysql.sock",
+    "port": "3306",
+    "skip-external-locking": "",
+    "skip-name-resolve": "",
+    "user": "mysql",
+    "query_cache_type": "1",
+    "query_cache_limit": "16M",
+    "wait_timeout": "300",
+    "query_cache_size": "128M",
+    "key_buffer_size": "400M",
+    "thread_cache_size": "50",
+    "table_cache": "8192",
+    "max_heap_table_size": "256M",
+    "tmp_table_size": "256M",
+    "innodb_file_per_table": "",
+    "innodb_buffer_pool_size": "5G",
+    "innodb_log_file_size": "256M",
+    "innodb_flush_log_at_trx_commit": "0",
+    "thread_concurrency": "8",
+    "join_buffer_size": "256k",
+    "thread_stack": "256K",
+    "max_allowed_packet": "512M",
+    "max_connections": "2500",
+    "old_passwords": "1",
+    "tmpdir": "/db/tmpfs01"
+  },
+  "mysqld_safe": {
+    "log-error": "/var/log/mysqld.log",
+    "pid-file": "/var/run/mysqld/mysqld.pid"
+  }
+}

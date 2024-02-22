@@ -1,0 +1,69 @@
+{
+  "mysqld": {
+    "local-infile": "0",
+    "datadir": "/var/lib/mysql",
+    "skip-locking": "",
+    "skip-name-resolve": "",
+    "skip-host-cache": "",
+    "safe-show-database": "",
+    "innodb_buffer_pool_size": "512M",
+    "innodb_additional_mem_pool_size": "64M",
+    "innodb_thread_concurrency": "8",
+    "innodb_flush_log_at_trx_commit": "0",
+    "innodb_log_buffer_size": "8M",
+    "innodb_file_per_table": "1",
+    "query_cache_limit": "1M",
+    "query_cache_size": "192M",
+    "query_cache_type": "1",
+    "max_user_connections": "1000",
+    "max_connections": "1000",
+    "interactive_timeout": "360",
+    "wait_timeout": "360",
+    "connect_timeout": "360",
+    "thread_cache_size": "128",
+    "table_cache": "1024",
+    "key_buffer": "1024M",
+    "join_buffer": "1M",
+    "max_connect_errors": "360",
+    "max_allowed_packet": "4M",
+    "record_buffer": "4M",
+    "sort_buffer_size": "4M",
+    "read_buffer_size": "4M",
+    "read_rnd_buffer_size": "8M",
+    "thread_concurrency": "8",
+    "myisam_sort_buffer_size": "64M",
+    "server-id": "1",
+    "collation-server": "latin1_general_ci",
+    "socket": "/var/lib/mysql/mysql.sock"
+  },
+  "mysql.server": {
+    "user": "mysql"
+  },
+  "safe_mysqld": {
+    "err-log": "/var/log/mysqld.log",
+    "pid-file": "/var/lib/mysql/mysql.pid",
+    "open_files_limit": "8192"
+  },
+  "mysqldump": {
+    "quick": "",
+    "max_allowed_packet": "16M"
+  },
+  "mysql": {
+    "no-auto-rehash": ""
+  },
+  "isamchk": {
+    "key_buffer": "64M",
+    "sort_buffer": "64M",
+    "read_buffer": "16M",
+    "write_buffer": "16M"
+  },
+  "myisamchk": {
+    "key_buffer": "64M",
+    "sort_buffer": "64M",
+    "read_buffer": "16M",
+    "write_buffer": "16M"
+  },
+  "mysqlhotcopy": {
+    "interactive-timeout": ""
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "mysqld": {
+    "datadir": "/var/lib/mysql",
+    "user": "daemon",
+    "log": "/var/log/mysqld.log",
+    "pid-file": "/var/run/mysqld.pid",
+    "socket": "/tmp/mysql.sock",
+    "port": "3306",
+    "skip-networking": "",
+    "skip-innodb": ""
+  },
+  "client": {
+    "socket": "/tmp/mysql.sock",
+    "port": "3306"
+  }
+}

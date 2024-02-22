@@ -1,0 +1,54 @@
+{
+  "client": {
+    "port": "3310",
+    "socket": "/tmp/mysql5.sock"
+  },
+  "mysqld": {
+    "port": "3310",
+    "socket": "/tmp/mysql5.sock",
+    "datadir": "/usr/local/mysql5/data",
+    "skip-locking": "",
+    "key_buffer": "16M",
+    "max_allowed_packet": "1M",
+    "table_cache": "64",
+    "sort_buffer_size": "512K",
+    "net_buffer_length": "8K",
+    "read_buffer_size": "256K",
+    "read_rnd_buffer_size": "512K",
+    "myisam_sort_buffer_size": "8M",
+    "server-id": "2"
+  },
+  "mysql.server": {
+    "user": "mysql",
+    "basedir": "/usr/local/mysql5"
+  },
+  "safe_mysqld": {
+    "err-log": "/usr/local/mysql5/error.log",
+    "datadir": "/usr/local/mysql5/data",
+    "pid-file": "/var/run/mysqld/mysqld5.pid",
+    "log-bin": "",
+    "server-id": "2"
+  },
+  "mysqldump": {
+    "quick": "",
+    "max_allowed_packet": "16M"
+  },
+  "mysql": {
+    "no-auto-rehash": ""
+  },
+  "isamchk": {
+    "key_buffer": "20M",
+    "sort_buffer_size": "20M",
+    "read_buffer": "2M",
+    "write_buffer": "2M"
+  },
+  "myisamchk": {
+    "key_buffer": "20M",
+    "sort_buffer_size": "20M",
+    "read_buffer": "2M",
+    "write_buffer": "2M"
+  },
+  "mysqlhotcopy": {
+    "interactive-timeout": ""
+  }
+}

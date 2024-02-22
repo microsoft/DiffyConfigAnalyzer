@@ -1,0 +1,24 @@
+{
+  "mysqld": {
+    "datadir": "/var/lib/mysql",
+    "socket": "/var/lib/mysql/mysql.sock",
+    "user": "mysql",
+    "character-set-server": "utf8",
+    "collation-server": "utf8_general_ci",
+    "symbolic-links": "0",
+    "skip-locking": "",
+    "key_buffer_size": "16K",
+    "max_allowed_packet": "1M",
+    "table_open_cache": "4",
+    "sort_buffer_size": "64K",
+    "read_buffer_size": "256K",
+    "read_rnd_buffer_size": "256K",
+    "net_buffer_length": "2K",
+    "thread_stack": "128K"
+  },
+  "mysqld_safe": {
+    "log-error": "/var/log/mysqld.log",
+    "pid-file": "/var/run/mysqld/mysqld.pid",
+    "nice": "-15"
+  }
+}

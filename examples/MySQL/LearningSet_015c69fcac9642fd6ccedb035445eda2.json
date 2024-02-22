@@ -1,0 +1,26 @@
+{
+  "mysqld": {
+    "query-cache-type": "1",
+    "query-cache-size": "8M",
+    "max_allowed_packet": "500M",
+    "ft_min_word_len": "2",
+    "ft_stopword_file": "\"\""
+  },
+  "myisamchk": {
+    "ft_min_word_len": "2",
+    "set-variable": "innodb_thread_concurrency=2",
+    "datadir": "/var/lib/mysql",
+    "socket": "/var/lib/mysql/mysql.sock",
+    "skip-bdb": ""
+  },
+  "mysql.server": {
+    "user": "mysql",
+    "basedir": "/var/lib"
+  },
+  "mysqld_safe": {
+    "log-error": "/var/log/mysqld.log",
+    "pid-file": "/var/run/mysqld/mysqld.pid",
+    "skip-bdb": "",
+    "set-variable": "innodb_thread_concurrency=2"
+  }
+}

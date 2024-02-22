@@ -1,0 +1,70 @@
+{
+  "mysql_upgrade": {
+    "datadir": "/Volumes/SSD120/mysql/data",
+    "tmpdir": "/Volumes/SSD120/mysql/tmp"
+  },
+  "mysqld": {
+    "default-storage-engine": "innodb",
+    "long_query_time": "2",
+    "sql-mode": "STRICT_ALL_TABLES,NO_AUTO_CREATE_USER",
+    "max_allowed_packet": "64M",
+    "binlog_cache_size": "1M",
+    "max_heap_table_size": "128M",
+    "table_cache": "512",
+    "sort_buffer_size": "64M",
+    "join_buffer_size": "128M",
+    "query_cache_type": "1",
+    "query_cache_size": "50M",
+    "transaction_isolation": "REPEATABLE-READ",
+    "tmp_table_size": "256M",
+    "key_buffer_size": "512M",
+    "bulk_insert_buffer_size": "64M",
+    "read_buffer_size": "20M",
+    "read_rnd_buffer_size": "64M",
+    "myisam_sort_buffer_size": "256M",
+    "myisam_max_sort_file_size": "10G",
+    "myisam_repair_threads": "4",
+    "myisam_recover": "",
+    "innodb": "",
+    "innodb_rollback_on_timeout": "",
+    "innodb_additional_mem_pool_size": "16M",
+    "innodb_buffer_pool_size": "4G",
+    "innodb_autoextend_increment": "20",
+    "innodb_data_home_dir": "/Volumes/SSD120/mysql/data",
+    "datadir": "/Volumes/SSD120/mysql/data",
+    "tmpdir": "/Volumes/SSD120/mysql/tmp",
+    "innodb_thread_concurrency": "8",
+    "innodb_file_per_table": "",
+    "innodb_flush_log_at_trx_commit": "0",
+    "innodb_log_buffer_size": "4M",
+    "innodb_log_file_size": "256M",
+    "innodb_log_files_in_group": "2",
+    "innodb_max_dirty_pages_pct": "90",
+    "sync_binlog": "0",
+    "innodb_lock_wait_timeout": "60"
+  },
+  "mysqldump": {
+    "quick": ""
+  },
+  "mysql": {
+    "prompt": "(\\\\u@\\\\h)\\\\ \\\\d>\\\\_"
+  },
+  "isamchk": {
+    "key_buffer": "512M",
+    "sort_buffer_size": "512M",
+    "read_buffer": "8M",
+    "write_buffer": "8M"
+  },
+  "myisamchk": {
+    "key_buffer": "512M",
+    "sort_buffer_size": "512M",
+    "read_buffer": "8M",
+    "write_buffer": "8M"
+  },
+  "mysqlhotcopy": {
+    "interactive-timeout": ""
+  },
+  "mysqld_safe": {
+    "open-files-limit": "1024"
+  }
+}

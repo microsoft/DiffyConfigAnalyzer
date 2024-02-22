@@ -1,0 +1,14 @@
+{
+  "mysql": {
+    "user": "root",
+    "password": ""
+  },
+  "mysqladmin": {
+    "user": "root",
+    "password": ""
+  },
+  "mysqldump": {
+    "user": "root",
+    "password": ""
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "mysqld": {
+    "basedir": "\"C:\\rootfolder\\MySQL\\\"",
+    "datadir": "\"C:\\rootfolder\\MySQL\\data\\\"",
+    "port": "3306",
+    "socket": "\"TCP/IP\"",
+    "skip-locking": "",
+    "key_buffer": "16M",
+    "max_allowed_packet": "1M",
+    "table_cache": "64",
+    "sort_buffer_size": "512K",
+    "net_buffer_length": "8K",
+    "read_buffer_size": "256K",
+    "read_rnd_buffer_size": "512K",
+    "myisam_sort_buffer_size": "8M",
+    "bind-address": "0.0.0.0"
+  }
+}

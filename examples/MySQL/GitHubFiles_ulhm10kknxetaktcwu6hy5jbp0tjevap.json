@@ -1,0 +1,64 @@
+{
+  "client": {
+    "port": "3306",
+    "socket": "/var/run/mysql/mysql.sock",
+    "default-character-set": "utf8"
+  },
+  "mysqld": {
+    "port": "3306",
+    "socket": "/var/run/mysql/mysql.sock",
+    "datadir": "/var/lib/mysql",
+    "skip-external-locking": "",
+    "key_buffer_size": "16M",
+    "max_allowed_packet": "1M",
+    "table_open_cache": "64",
+    "sort_buffer_size": "512K",
+    "net_buffer_length": "8K",
+    "read_buffer_size": "256K",
+    "read_rnd_buffer_size": "512K",
+    "myisam_sort_buffer_size": "8M",
+    "character-set-server": "utf8",
+    "collation-server": "utf8_general_ci",
+    "log-bin": "mysql-bin",
+    "expire_logs_days": "5",
+    "max_binlog_size": "100M",
+    "binlog_format": "mixed",
+    "server-id": "1",
+    "innodb_data_home_dir": "/var/lib/mysql/",
+    "innodb_data_file_path": "ibdata1:10M:autoextend",
+    "innodb_log_group_home_dir": "/var/lib/mysql/",
+    "innodb_buffer_pool_size": "512M",
+    "innodb_additional_mem_pool_size": "64M",
+    "innodb_log_file_size": "128M",
+    "innodb_log_buffer_size": "32M",
+    "innodb_flush_log_at_trx_commit": "1",
+    "innodb_lock_wait_timeout": "50"
+  },
+  "safe_mysqld": {
+    "log-error": "/var/log/mysql/mysqld.log",
+    "socket": "/var/run/mysql/mysql.sock",
+    "!include_dir /etc/mysql": ""
+  },
+  "mysqldump": {
+    "socket": "/var/run/mysql/mysql.sock",
+    "quick": "",
+    "max_allowed_packet": "16M"
+  },
+  "mysql": {
+    "no-auto-rehash": ""
+  },
+  "myisamchk": {
+    "key_buffer_size": "20M",
+    "sort_buffer_size": "20M",
+    "read_buffer": "2M",
+    "write_buffer": "2M"
+  },
+  "mysqlhotcopy": {
+    "interactive-timeout": ""
+  },
+  "mysqld_multi": {
+    "mysqld": "/usr/bin/mysqld_safe",
+    "mysqladmin": "/usr/bin/mysqladmin",
+    "log": "/var/log/mysqld_multi.log"
+  }
+}

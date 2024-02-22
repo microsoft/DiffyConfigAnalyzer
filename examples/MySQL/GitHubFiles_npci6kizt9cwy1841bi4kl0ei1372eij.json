@@ -1,0 +1,14 @@
+{
+  "mysqld": {
+    "datadir": "/home/peter/var/data",
+    "socket": "/tmp/mysql.sock",
+    "user": "peter"
+  },
+  "mysqld_safe": {
+    "log-error": "/home/peter/var/mysql.log",
+    "pid-file": "/home/peter/var/run/mysqld.pid"
+  },
+  "client": {
+    "socket": "/tmp/mysql.sock"
+  }
+}

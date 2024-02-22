@@ -1,0 +1,81 @@
+{
+  "client": {
+    "port": "3306",
+    "socket": "/var/run/mysqld/mysqld.sock"
+  },
+  "mysql": {
+    "character-sets-dir": "utf8",
+    "default-character-set": "utf8"
+  },
+  "mysqladmin": {
+    "character-sets-dir": "utf8",
+    "default-character-set": "utf8"
+  },
+  "mysqlcheck": {
+    "character-sets-dir": "utf8",
+    "default-character-set": "utf8"
+  },
+  "mysqldump": {
+    "character-sets-dir": "utf8",
+    "default-character-set": "utf8",
+    "quick": "",
+    "max_allowed_packet": "16M"
+  },
+  "mysqlimport": {
+    "character-sets-dir": "utf8",
+    "default-character-set": "utf8"
+  },
+  "mysqlshow": {
+    "character-sets-dir": "utf8",
+    "default-character-set": "utf8"
+  },
+  "myisamchk": {
+    "character-sets-dir": "utf8",
+    "key_buffer": "20M",
+    "sort_buffer_size": "20M",
+    "read_buffer": "2M",
+    "write_buffer": "2M"
+  },
+  "myisampack": {
+    "character-sets-dir": "utf8"
+  },
+  "mysqld_safe": {
+    "err-log": "/var/log/mysql/mysql.err"
+  },
+  "mysqld": {
+    "character-set-server": "utf8",
+    "default-character-set": "utf8",
+    "user": "mysql",
+    "port": "3306",
+    "socket": "/var/run/mysqld/mysqld.sock",
+    "pid-file": "/var/run/mysqld/mysqld.pid",
+    "log-error": "/var/log/mysql/mysqld.err",
+    "basedir": "/usr",
+    "datadir": "/var/lib/mysql",
+    "skip-locking": "",
+    "key_buffer": "16M",
+    "max_allowed_packet": "1M",
+    "table_cache": "64",
+    "sort_buffer_size": "512K",
+    "net_buffer_length": "8K",
+    "read_buffer_size": "256K",
+    "read_rnd_buffer_size": "512K",
+    "myisam_sort_buffer_size": "8M",
+    "language": "/usr/share/mysql/english",
+    "skip-networking": "",
+    "bind-address": "127.0.0.1",
+    "server-id": "1",
+    "tmpdir": "/tmp/",
+    "innodb_data_home_dir": "/var/lib/mysql/innodb/",
+    "innodb_log_group_home_dir": "/var/lib/mysql/innodb/"
+  },
+  "isamchk": {
+    "key_buffer": "20M",
+    "sort_buffer_size": "20M",
+    "read_buffer": "2M",
+    "write_buffer": "2M"
+  },
+  "mysqlhotcopy": {
+    "interactive-timeout": ""
+  }
+}

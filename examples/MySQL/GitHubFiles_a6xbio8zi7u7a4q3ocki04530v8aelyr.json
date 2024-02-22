@@ -1,0 +1,7 @@
+{
+  "mysql": {
+    "auto-rehash": "",
+    "pager": "\"less -n -i -S\"",
+    "show-warnings": ""
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "client": {
+    "port": "33066",
+    "user": "drupaluser"
+  },
+  "mysql": {},
+  "mysqladmin": {
+    "user": "root",
+    "port": "33066"
+  },
+  "mysqld": {
+    "pid-file": "\"D:/Programs/Acquia Dev Desktop/mysql/data/mysql.pid\"",
+    "log-error": "\"D:/Programs/Acquia Dev Desktop/mysql/data/mysql.err\"",
+    "port": "33066",
+    "basedir": "\"D:/Programs/Acquia Dev Desktop/mysql\"",
+    "datadir": "\"D:/Programs/Acquia Dev Desktop/mysql/data\"",
+    "default-storage-engine": "InnoDB",
+    "max_allowed_packet": "128M",
+    "innodb_flush_log_at_trx_commit": "2"
+  }
+}

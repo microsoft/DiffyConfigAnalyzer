@@ -1,0 +1,6 @@
+{
+  "mysql": {
+    "prompt": "\"\\u@\\h[\\d]> \"",
+    "auto-rehash": ""
+  }
+}

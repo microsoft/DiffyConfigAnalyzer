@@ -1,0 +1,15 @@
+{
+  "mysqld": {
+    "bind-address": "127.0.0.1",
+    "local-infile": "0",
+    "datadir": "/var/lib/mysql",
+    "socket": "/var/lib/mysql/mysql.sock",
+    "user": "mysql",
+    "symbolic-links": "0",
+    "max_allowed_packet": "512M"
+  },
+  "mysqld_safe": {
+    "log-error": "/var/log/mysqld.log",
+    "pid-file": "/var/run/mysqld/mysqld.pid"
+  }
+}

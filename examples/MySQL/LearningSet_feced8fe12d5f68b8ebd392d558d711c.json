@@ -1,0 +1,50 @@
+{
+  "mysqld": {
+    "tmpdir": "/tmp",
+    "open_files_limit": "33628",
+    "old_passwords": "1",
+    "datadir": "/var/lib/mysql",
+    "skip-locking": "",
+    "safe-show-database": "",
+    "tmp_table_size": "128M",
+    "max_heap_table_size": "128M",
+    "query_cache_limit": "4M",
+    "query_cache_size": "256M",
+    "query_cache_type": "1",
+    "max_connections": "150",
+    "collation_server": "utf8_unicode_ci",
+    "character_set_server": "utf8",
+    "delayed_insert_timeout": "40",
+    "interactive_timeout": "10",
+    "wait_timeout": "3600",
+    "connect_timeout": "20",
+    "thread_cache_size": "128",
+    "key_buffer": "256M",
+    "join_buffer": "1M",
+    "max_connect_errors": "20",
+    "max_allowed_packet": "16M",
+    "table_cache": "8196",
+    "record_buffer": "1M",
+    "sort_buffer_size": "8M",
+    "read_buffer_size": "8M",
+    "read_rnd_buffer_size": "8M",
+    "thread_concurrency": "16",
+    "myisam_sort_buffer_size": "32M",
+    "server-id": "1"
+  },
+  "mysql.server": {
+    "user": "mysql"
+  },
+  "safe_mysqld": {
+    "open_files_limit": "33628",
+    "err-log": "/var/log/mysqld.log",
+    "pid-file": "/var/lib/mysql/mysql.pid"
+  },
+  "mysqldump": {
+    "quick": "",
+    "max_allowed_packet": "16M"
+  },
+  "mysql": {
+    "no-auto-rehash": ""
+  }
+}

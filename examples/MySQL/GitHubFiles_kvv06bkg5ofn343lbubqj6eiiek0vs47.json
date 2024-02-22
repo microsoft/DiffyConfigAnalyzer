@@ -1,0 +1,22 @@
+{
+  "mysqld": {
+    "datadir": "/var/lib/mysql",
+    "socket": "/var/lib/mysql/mysql.sock",
+    "user": "mysql",
+    "symbolic-links": "0",
+    "bind-address": "0.0.0.0",
+    "max_allowed_packet": "32M"
+  },
+  "mysqld_safe": {
+    "log-error": "/var/log/mysqld.log",
+    "pid-file": "/var/run/mysqld/mysqld.pid",
+    "socket": "/var/lib/mysql/mysql.sock"
+  },
+  "mysql": {
+    "socket": "/var/lib/mysql/mysql.sock",
+    "max_allowed_packet": "32M"
+  },
+  "mysqldump": {
+    "socket": "/var/lib/mysql/mysql.sock"
+  }
+}

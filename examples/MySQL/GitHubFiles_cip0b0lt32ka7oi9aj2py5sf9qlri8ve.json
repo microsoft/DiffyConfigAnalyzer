@@ -1,0 +1,13 @@
+{
+  "mysqld": {
+    "default-storage-engine": "InnoDB",
+    "innodb_log_buffer_size": "32M",
+    "innodb_buffer_pool_size": "256M",
+    "innodb_log_file_size": "32M",
+    "innodb_file_per_table": "1",
+    "max_allowed_packet": "128M",
+    "long_query_time": "1",
+    "slow_query_log": "1",
+    "slow_query_log_file": "slow.log"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "client": {
+    "database": "$MYSQL_DBNAME",
+    "user": "$MYSQL_USERNAME",
+    "password": "$MYSQL_PASSWORD",
+    "default-character-set": "utf8"
+  }
+}

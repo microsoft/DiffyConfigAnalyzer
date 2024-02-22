@@ -1,0 +1,18 @@
+{
+  "mysqld": {
+    "datadir": "/var/lib/mysql",
+    "socket": "/var/lib/mysql/mysql.sock",
+    "user": "mysql",
+    "symbolic-links": "0",
+    "default-character-set": "utf8"
+  },
+  "mysqld_safe": {
+    "log-error": "/var/log/mysqld.log",
+    "pid-file": "/var/run/mysqld/mysqld.pid"
+  },
+  "client": {
+    "port": "3306",
+    "socket": "/var/lib/mysql/mysql.sock",
+    "default-character-set": "utf8"
+  }
+}

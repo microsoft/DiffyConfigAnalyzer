@@ -1,0 +1,34 @@
+{
+  "client": {
+    "port": "3306",
+    "socket": "/var/run/mysqld/mysqld.sock"
+  },
+  "safe_mysqld": {
+    "err-log": "/var/log/mysql/mysql.err"
+  },
+  "mysqld": {
+    "user": "mysql",
+    "pid-file": "/var/run/mysqld/mysqld.pid",
+    "socket": "/var/run/mysqld/mysqld.sock",
+    "port": "3306",
+    "log": "/var/log/mysql.log",
+    "basedir": "/usr",
+    "datadir": "/var/lib/mysql",
+    "tmpdir": "/tmp",
+    "language": "/usr/share/mysql/english",
+    "skip-locking": "",
+    "skip-networking": "",
+    "set-variable": "innodb_log_buffer_size=8M",
+    "skip-bdb": "",
+    "innodb_data_file_path": "ibdata1:10M:autoextend",
+    "innodb_flush_log_at_trx_commit": "1"
+  },
+  "mysqldump": {
+    "quick": "",
+    "set-variable": "max_allowed_packet=1M"
+  },
+  "mysql": {},
+  "isamchk": {
+    "set-variable": "key_buffer=16M"
+  }
+}

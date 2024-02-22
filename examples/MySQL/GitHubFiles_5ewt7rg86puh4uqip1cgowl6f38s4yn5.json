@@ -1,0 +1,35 @@
+{
+  "client": {
+    "port": "3306",
+    "socket": "/var/run/mysql/mysql.sock"
+  },
+  "mysqld": {
+    "port": "3306",
+    "socket": "/var/run/mysql/mysql.sock",
+    "skip-external-locking": "",
+    "key_buffer_size": "300M",
+    "max_allowed_packet": "16M",
+    "table_open_cache": "512",
+    "thread_cache_size": "300",
+    "query_cache_size": "32M",
+    "thread_concurrency": "8",
+    "log-bin": "mysql-bin",
+    "innodb_lock_wait_timeout": "50"
+  },
+  "mysqldump": {
+    "quick": "",
+    "max_allowed_packet": "16M"
+  },
+  "mysql": {
+    "no-auto-rehash": ""
+  },
+  "myisamchk": {
+    "key_buffer_size": "128M",
+    "sort_buffer_size": "128M",
+    "read_buffer": "2M",
+    "write_buffer": "2M"
+  },
+  "mysqlhotcopy": {
+    "interactive-timeout": ""
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "client": {
+    "port": "3306",
+    "socket": "/usr/local/mysql4/mysql.sock"
+  },
+  "mysqld": {
+    "port": "3306",
+    "socket": "/usr/local/mysql4/mysql.sock",
+    "skip-locking": "",
+    "set-variable": "max_connections=200",
+    "server-id": "1"
+  },
+  "mysqldump": {
+    "quick": "",
+    "set-variable": "max_allowed_packet=16M"
+  },
+  "mysql": {
+    "no-auto-rehash": ""
+  },
+  "isamchk": {
+    "set-variable": "write_buffer=2M"
+  },
+  "myisamchk": {
+    "set-variable": "write_buffer=2M"
+  },
+  "mysqlhotcopy": {
+    "interactive-timeout": ""
+  }
+}

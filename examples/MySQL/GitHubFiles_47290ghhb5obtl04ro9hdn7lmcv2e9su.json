@@ -1,0 +1,7 @@
+{
+  "mysql": {
+    "pager": "grcat ~/.grcat | less -RSFXin",
+    "auto-rehash": "",
+    "prompt": "\"mysql:\\d > \""
+  }
+}

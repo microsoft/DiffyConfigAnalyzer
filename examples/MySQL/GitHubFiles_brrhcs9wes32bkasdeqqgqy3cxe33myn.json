@@ -1,0 +1,49 @@
+{
+  "client": {
+    "port": "3306",
+    "socket": "/Applications/MAMP/tmp/mysql/mysql.sock"
+  },
+  "mysqld": {
+    "port": "3306",
+    "socket": "/Applications/MAMP/tmp/mysql/mysql.sock",
+    "skip-external-locking": "",
+    "key_buffer": "2M",
+    "max_allowed_packet": "64M",
+    "table_cache": "4096",
+    "sort_buffer_size": "2M",
+    "join_buffer_size": "16M",
+    "tmp_table_size": "16M",
+    "max_heap_table_size": "16M",
+    "query_cache_size": "16M",
+    "query_cache_limit": "6M",
+    "read_buffer_size": "2M",
+    "read_rnd_buffer_size": "2M",
+    "net_buffer_length": "2K",
+    "thread_stack": "128K",
+    "thread_concurrency": "4",
+    "innodb_flush_log_at_trx_commit": "0",
+    "innodb_buffer_pool_size": "256M",
+    "innodb_additional_mem_pool_size": "20M",
+    "innodb_log_file_size": "96M",
+    "innodb_log_buffer_size": "64M",
+    "innodb_file_per_table": "",
+    "innodb_flush_method": "O_DIRECT",
+    "innodb_data_file_path": "ibdata1:10M:autoextend",
+    "sync_binlog": "1",
+    "server-id": "20"
+  },
+  "mysqldump": {
+    "quick": "",
+    "max_allowed_packet": "16M"
+  },
+  "mysql": {
+    "no-auto-rehash": ""
+  },
+  "myisamchk": {
+    "key_buffer_size": "8M",
+    "sort_buffer_size": "8M"
+  },
+  "mysqlhotcopy": {
+    "interactive-timeout": ""
+  }
+}

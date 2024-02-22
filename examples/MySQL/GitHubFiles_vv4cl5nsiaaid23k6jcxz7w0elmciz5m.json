@@ -1,0 +1,14 @@
+{
+  "mysqld": {
+    "datadir": "/var/lib/mysql",
+    "socket": "/var/lib/mysql/mysql.sock",
+    "log_bin": "",
+    "server-id": "1",
+    "user": "mysql",
+    "old_passwords": "1"
+  },
+  "mysqld_safe": {
+    "log-error": "/var/log/mysqld.log",
+    "pid-file": "/var/run/mysqld/mysqld.pid"
+  }
+}

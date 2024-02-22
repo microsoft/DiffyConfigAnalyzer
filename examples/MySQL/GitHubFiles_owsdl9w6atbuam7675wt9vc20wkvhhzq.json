@@ -1,0 +1,34 @@
+{
+  "mysqld": {
+    "bind-address": "0.0.0.0",
+    "server-id": "1",
+    "default_storage_engine": "InnoDB",
+    "innodb_file_per_table": "",
+    "max_binlog_size": "1000M",
+    "datadir": "/mnt/lib/mysql",
+    "log_bin": "/mnt/log/mysql/mysql-bin.log",
+    "innodb_log_file_size": "256M",
+    "innodb_log_buffer_size": "64M",
+    "innodb_flush_log_at_trx_commit": "0",
+    "long_query_time": "5",
+    "thread_cache_size": "64",
+    "thread_concurrency": "8",
+    "thread_stack": "192K",
+    "max_connections": "8",
+    "connect_timeout": "2",
+    "wait_timeout": "60",
+    "tmp_table_size": "512M",
+    "max_heap_table_size": "512M",
+    "sort_buffer_size": "128M",
+    "join_buffer_size": "128M",
+    "innodb_buffer_pool_size": "5000M",
+    "innodb_additional_mem_pool_size": "32M",
+    "innodb_max_dirty_pages_pct": "80",
+    "innodb_flush_method": "O_DIRECT",
+    "innodb_thread_concurrency": "16"
+  },
+  "mysqldump": {
+    "quick": "",
+    "max_allowed_packet": "16M"
+  }
+}

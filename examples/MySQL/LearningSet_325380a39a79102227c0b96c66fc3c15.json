@@ -1,0 +1,5 @@
+{
+  "mysqld": {
+    "default-storage-engine": "MyISAM"
+  }
+}

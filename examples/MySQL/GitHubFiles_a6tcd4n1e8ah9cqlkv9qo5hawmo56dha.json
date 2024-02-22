@@ -1,0 +1,12 @@
+{
+  "client": {
+    "port": "3306",
+    "socket": "/data/mysql/mysql.sock"
+  },
+  "mysqld": {
+    "port": "3306",
+    "socket": "/data/mysql/mysql.sock",
+    "datadir": "/data/mysql",
+    "!includedir /etc/mysql/mysql.d/": ""
+  }
+}

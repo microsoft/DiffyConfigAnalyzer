@@ -1,0 +1,7 @@
+{
+  "mysqld": {
+    "log_bin": "mysql-binlog",
+    "binlog_format": "statement",
+    "log_slave_updates": "false"
+  }
+}

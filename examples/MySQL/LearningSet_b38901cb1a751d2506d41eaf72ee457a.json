@@ -1,0 +1,15 @@
+{
+  "client": {
+    "port": "3306",
+    "socket": "/export/data1/apps/local/mysql/mysql.sock"
+  },
+  "mysqld": {
+    "datadir": "/export/data1/apps/local/mysql/data",
+    "socket": "/export/data1/apps/local/mysql/mysql.sock",
+    "user": "mysql"
+  },
+  "mysqld_safe": {
+    "log-error": "/export/data1/apps/local/mysql/logs/mysqld.log",
+    "pid-file": "/export/data1/apps/local/mysql/logs/mysqld.pid"
+  }
+}

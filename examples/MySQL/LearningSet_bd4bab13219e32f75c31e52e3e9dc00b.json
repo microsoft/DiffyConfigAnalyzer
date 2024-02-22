@@ -1,0 +1,13 @@
+{
+  "client": {
+    "port": "3306",
+    "socket": "/tmp/mysql.sock"
+  },
+  "mysqld": {
+    "datadir": "/Volumes/Elements/database",
+    "port": "3306",
+    "socket": "/tmp/mysql.sock",
+    "skip-locking": "",
+    "key_buffer_size": "384M"
+  }
+}

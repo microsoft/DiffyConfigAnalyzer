@@ -1,0 +1,19 @@
+{
+  "mysqld": {
+    "datadir": "/var/lib/mysql",
+    "socket": "/var/lib/mysql/mysql.sock",
+    "user": "mysql",
+    "old_passwords": "1",
+    "collation_server": "utf8_unicode_ci",
+    "character_set_server": "utf8",
+    "default-character-set": "utf8",
+    "init_connect": "'SET NAMES utf8'"
+  },
+  "mysql": {
+    "default-character-set": "utf8"
+  },
+  "mysqld_safe": {
+    "log-error": "/var/log/mysqld.log",
+    "pid-file": "/var/run/mysqld/mysqld.pid"
+  }
+}

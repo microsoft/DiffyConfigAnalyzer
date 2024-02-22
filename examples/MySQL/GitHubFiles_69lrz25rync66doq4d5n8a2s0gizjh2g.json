@@ -1,0 +1,7 @@
+{
+  "mysqld": {
+    "general_log": "",
+    "general_log_file": "/var/log/mysql/query.log",
+    "innodb_buffer_pool_size": "256M"
+  }
+}

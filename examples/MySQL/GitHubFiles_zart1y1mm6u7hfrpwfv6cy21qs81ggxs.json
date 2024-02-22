@@ -1,0 +1,29 @@
+{
+  "client": {
+    "port": "3306"
+  },
+  "mysqld": {
+    "port": "3306",
+    "skip-locking": "",
+    "set-variable": "max_connect_errors=999999",
+    "server-id": "1",
+    "basedir": "@APP_HOME@/server/mysql/",
+    "datadir": "@DATA_HOME@/DB/mysql/"
+  },
+  "mysqldump": {
+    "quick": "",
+    "set-variable": "max_allowed_packet=16M"
+  },
+  "mysql": {
+    "no-auto-rehash": ""
+  },
+  "isamchk": {
+    "set-variable": "sort_buffer=8M"
+  },
+  "myisamchk": {
+    "set-variable": "sort_buffer=8M"
+  },
+  "mysqlhotcopy": {
+    "interactive-timeout": ""
+  }
+}

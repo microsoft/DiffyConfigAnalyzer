@@ -1,0 +1,18 @@
+{
+  "mysqld": {
+    "skip-name-resolve": "",
+    "default-table-type": "InnoDB",
+    "transaction-isolation": "READ-COMMITTED",
+    "init-connect": "set names binary",
+    "default-character-set": "cp932"
+  },
+  "mysql.server": {
+    "user": "mysql"
+  },
+  "mysql": {
+    "default-character-set": "cp932"
+  },
+  "mysqldump": {
+    "default-character-set": "cp932"
+  }
+}

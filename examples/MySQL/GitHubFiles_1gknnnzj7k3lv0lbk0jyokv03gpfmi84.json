@@ -1,0 +1,19 @@
+{
+  "mysql": {
+    "no-auto-rehash": "",
+    "prompt": "[\\\\R:\\\\m]\\\\_\\\\u\\\\_\\\\d\\\\_$>\\\\_"
+  },
+  "client": {
+    "host": "localhost",
+    "password": ""
+  },
+  "mysqldump": {
+    "quick": "",
+    "host": "localhost",
+    "password": "",
+    "max_allowed_packet": "256M"
+  },
+  "mysqlhotcopy": {
+    "interactive-timeout": ""
+  }
+}

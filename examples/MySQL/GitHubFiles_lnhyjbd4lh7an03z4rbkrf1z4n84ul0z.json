@@ -1,0 +1,6 @@
+{
+  "mysqld_safe": {
+    "log-error": "/var/log/mysqld.log",
+    "!includedir /etc/mysql/conf.d/": ""
+  }
+}

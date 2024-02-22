@@ -1,0 +1,26 @@
+{
+  "atrt": {
+    "basedir": "CHOOSE_dir",
+    "baseport": "14000",
+    "clusters": ".2node"
+  },
+  "ndb_mgmd": {},
+  "mysqld": {
+    "skip-innodb": "",
+    "skip-bdb": ""
+  },
+  "cluster_config.2node": {
+    "ndb_mgmd": "CHOOSE_host1",
+    "ndbd": "CHOOSE_host2,CHOOSE_host3",
+    "ndbapi": "CHOOSE_host1,CHOOSE_host1,CHOOSE_host1",
+    "noofreplicas": "2",
+    "indexmemory": "100M",
+    "datamemory": "300M",
+    "backupmemory": "64M",
+    "maxnoofconcurrentscans": "100",
+    "maxnoofsavedmessages": "1000",
+    "sendbuffermemory": "2M",
+    "nooffragmentlogfiles": "4",
+    "fragmentlogfilesize": "64M"
+  }
+}

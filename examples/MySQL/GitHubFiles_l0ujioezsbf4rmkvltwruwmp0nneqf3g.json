@@ -1,0 +1,33 @@
+{
+  "mysqld": {
+    "ignore-db-dir": "lost+found",
+    "datadir": "/var/lib/mysql",
+    "socket": "/var/lib/mysql/mysql.sock",
+    "tmpdir": "/var/lib/mysqltmp",
+    "skip-external-locking": "",
+    "character-set-server": "utf8mb4",
+    "skip-character-set-client-handshake": "",
+    "default-storage-engine": "InnoDB",
+    "explicit_defaults_for_timestamp": "OFF",
+    "table-definition-cache": "4096",
+    "table-open-cache": "4096",
+    "max-connections": "400",
+    "max-connect-errors": "1000000",
+    "max-allowed-packet": "16M",
+    "skip-name-resolve": "",
+    "wait-timeout": "600",
+    "key-buffer-size": "32M",
+    "myisam-sort-buffer-size": "128M",
+    "innodb-file-format": "Barracuda",
+    "expire-logs-days": "7",
+    "relay-log-space-limit": "16G",
+    "server-id": "1"
+  },
+  "mysqld_safe": {
+    "log-error": "/var/log/mysqld.log",
+    "open-files-limit": "65535"
+  },
+  "mysql": {
+    "no-auto-rehash": ""
+  }
+}

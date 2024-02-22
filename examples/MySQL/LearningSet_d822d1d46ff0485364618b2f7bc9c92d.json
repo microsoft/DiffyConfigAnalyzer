@@ -1,0 +1,71 @@
+{
+  "client": {
+    "port": "3306",
+    "socket": "/var/run/mysqld/mysqld.sock"
+  },
+  "mysqld_safe": {
+    "socket": "/var/run/mysqld/mysqld.sock",
+    "nice": "0"
+  },
+  "mysqld": {
+    "user": "mysql",
+    "pid-file": "/var/run/mysqld/mysqld.pid",
+    "socket": "/var/run/mysqld/mysqld.sock",
+    "port": "3306",
+    "basedir": "/usr",
+    "datadir": "/database/mysql",
+    "tmpdir": "/tmp",
+    "language": "/usr/share/mysql/english",
+    "skip-external-locking": "",
+    "bind-address": "127.0.0.1",
+    "max_allowed_packet": "64M",
+    "thread_stack": "192K",
+    "myisam-recover": "BACKUP",
+    "query_cache_limit": "1M",
+    "expire_logs_days": "10",
+    "max_binlog_size": "100M",
+    "thread_cache_size": "192",
+    "table_cache": "768",
+    "tmp_table_size": "32M",
+    "max_heap_table_size": "32M",
+    "query_cache_size": "128M",
+    "query_cache_type": "2",
+    "innodb_open_files": "1000",
+    "innodb_buffer_pool_size": "28G",
+    "innodb_additional_mem_pool_size": "8M",
+    "innodb_flush_log_at_trx_commit": "1",
+    "innodb_support_xa": "0",
+    "innodb_lock_wait_timeout": "50",
+    "innodb_log_files_in_group": "2",
+    "innodb_log_buffer_size": "8M",
+    "innodb_thread_concurrency": "14",
+    "innodb_file_per_table": "",
+    "max_connections": "100",
+    "binlog_cache_size": "1M",
+    "sort_buffer_size": "16M",
+    "join_buffer_size": "16M",
+    "ft_min_word_len": "1",
+    "ft_max_word_len": "84",
+    "ft_stopword_file": "''",
+    "default_table_type": "InnoDB",
+    "key_buffer": "2G",
+    "read_buffer_size": "2M",
+    "read_rnd_buffer_size": "16M",
+    "bulk_insert_buffer_size": "64M",
+    "myisam_sort_buffer_size": "128M",
+    "myisam_max_sort_file_size": "10G",
+    "myisam_max_extra_sort_file_size": "10G",
+    "myisam_repair_threads": "1",
+    "myisam_recover": ""
+  },
+  "mysqldump": {
+    "quick": "",
+    "quote-names": "",
+    "max_allowed_packet": "16M"
+  },
+  "mysql": {},
+  "isamchk": {
+    "key_buffer": "16M",
+    "!includedir /etc/mysql/conf.d/": ""
+  }
+}

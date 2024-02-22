@@ -1,0 +1,22 @@
+{
+  "mysqld": {
+    "datadir": "/home/data/mysql",
+    "socket": "/home/data/mysql/mysql.sock",
+    "pid-file": "/home/data/mysql/mysql.pid",
+    "user": "mysql",
+    "port": "3306",
+    "default_storage_engine": "InnoDB",
+    "symbolic-links": "0",
+    "max_allowed_packet": "4M",
+    "innodb_file_per_table": "1",
+    "innodb_flush_method": "O_DIRECT",
+    "character-set-server": "utf8",
+    "collation-server": "utf8_general_ci",
+    "slow_query_log_file": "/home/data/mysql/mysql-slow.log",
+    "log_error": "/home/data/mysql/mysql-error.log"
+  },
+  "client": {
+    "socket": "/home/data/mysql/mysql.sock",
+    "port": "3306"
+  }
+}

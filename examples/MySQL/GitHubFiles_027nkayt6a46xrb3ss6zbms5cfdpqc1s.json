@@ -1,0 +1,7 @@
+{
+  "mysql": {
+    "innodb_buffer_pool_size": "1000M",
+    "skip-innodb-doublewrite": "",
+    "innodb_flush_method": "O_DIRECT_NO_FSYNC"
+  }
+}

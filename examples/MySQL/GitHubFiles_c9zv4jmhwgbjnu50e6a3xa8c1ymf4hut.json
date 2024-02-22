@@ -1,0 +1,25 @@
+{
+  "mysqld": {
+    "datadir": "/var/lib/mysql",
+    "socket": "/var/lib/mysql/mysql.sock",
+    "symbolic-links": "0",
+    "sql_mode": "NO_ENGINE_SUBSTITUTION,STRICT_TRANS_TABLES",
+    "lower_case_table_names": "1",
+    "collation_server": "utf8_unicode_ci",
+    "character_set_server": "utf8",
+    "innodb_file_per_table": "on",
+    "table_open_cache": "19922",
+    "open_files_limit": "39844",
+    "thread_cache_size": "50",
+    "query_cache_size": "50M",
+    "query_cache_type": "1",
+    "innodb_buffer_pool_size": "1G",
+    "innodb_additional_mem_pool_size": "20M",
+    "innodb_log_file_size": "256M",
+    "bind-address": "0.0.0.0"
+  },
+  "mysqld_safe": {
+    "log-error": "/var/log/mysqld.log",
+    "pid-file": "/var/run/mysqld/mysqld.pid"
+  }
+}

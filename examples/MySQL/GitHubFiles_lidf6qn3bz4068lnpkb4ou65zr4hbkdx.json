@@ -1,0 +1,12 @@
+{
+  "mysqld": {
+    "datadir": "/apps/mysql/data",
+    "socket": "/var/lib/mysql/mysql.sock",
+    "user": "mysql",
+    "symbolic-links": "0"
+  },
+  "mysqld_safe": {
+    "log-error": "/apps/log/mysql/mysqld.log",
+    "pid-file": "/var/run/mysqld/mysqld.pid"
+  }
+}

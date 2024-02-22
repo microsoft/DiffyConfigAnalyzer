@@ -1,0 +1,40 @@
+{
+  "client": {
+    "port": "3306",
+    "socket": "/var/run/mysql/mysql.sock"
+  },
+  "mysqld": {
+    "port": "3306",
+    "pid-file": "/var/run/mysql/mysql.pid",
+    "datadir": "/var/lib/mysql",
+    "socket": "/var/run/mysql/mysql.sock",
+    "user": "mysql",
+    "plugin_dir": "/httpd/platform/mysql/plugins",
+    "tmpdir": "/local/mysql/tmp/",
+    "symbolic-links": "1",
+    "key_buffer": "84M",
+    "max_allowed_packet": "8M",
+    "max_user_connections": "500",
+    "sort_buffer_size": "2M",
+    "read_buffer_size": "2M",
+    "myisam_sort_buffer_size": "64M",
+    "thread_cache_size": "2",
+    "query_cache_size": "8M",
+    "innodb_file_per_table": "1",
+    "innodb_log_group_home_dir": "/local/mysql/logs",
+    "myisam_repair_threads": "10",
+    "innodb_use_native_aio": "0",
+    "max_connections": "500",
+    "max_connect_errors": "3000",
+    "net_read_timeout": "60",
+    "interactive_timeout": "2400",
+    "wait_timeout": "60",
+    "back_log": "100",
+    "connect-timeout": "60",
+    "sql_mode": "NO_ENGINE_SUBSTITUTION"
+  },
+  "mysqld_safe": {
+    "log-error": "/var/log/mysqld.log",
+    "pid-file": "/var/run/mysqld/mysqld-safe.pid"
+  }
+}

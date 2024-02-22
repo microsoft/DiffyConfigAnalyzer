@@ -1,0 +1,16 @@
+{
+  "mysqld": {
+    "datadir": "/var/lib/mysql",
+    "socket": "/var/lib/mysql/mysql.sock",
+    "user": "mysql",
+    "max_allowed_packet": "16M",
+    "default-time-zone": "'+00:00'",
+    "query_cache_type": "1",
+    "query_cache_size": "10M",
+    "bind-address": "0.0.0.0"
+  },
+  "mysqld_safe": {
+    "log-error": "/var/log/mysqld.log",
+    "pid-file": "/var/run/mysqld/mysqld.pid"
+  }
+}

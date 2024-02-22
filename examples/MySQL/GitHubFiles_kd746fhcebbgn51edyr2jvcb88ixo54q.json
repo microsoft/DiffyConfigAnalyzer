@@ -1,0 +1,63 @@
+{
+  "client": {
+    "port": "3306",
+    "socket": "/tmp/mysql.sock"
+  },
+  "mysqld": {
+    "port": "3306",
+    "socket": "/tmp/mysql.sock",
+    "datadir": "/mysql/data",
+    "skip-external-locking": "",
+    "key_buffer_size": "384M",
+    "max_allowed_packet": "16M",
+    "table_open_cache": "2048",
+    "sort_buffer_size": "2M",
+    "read_buffer_size": "2M",
+    "read_rnd_buffer_size": "8M",
+    "myisam_sort_buffer_size": "64M",
+    "thread_cache_size": "8",
+    "query_cache_size": "32M",
+    "thread_concurrency": "0",
+    "log-bin": "mysql-bin",
+    "server-id": "1",
+    "innodb_data_home_dir": "/mysql/data",
+    "innodb_data_file_path": "ibdata1:10M:autoextend",
+    "innodb_log_group_home_dir": "/mysql/data",
+    "innodb_buffer_pool_size": "4G",
+    "innodb_additional_mem_pool_size": "20M",
+    "innodb_log_file_size": "1900M",
+    "innodb_log_buffer_size": "80M",
+    "innodb_log_files_in_group": "2",
+    "innodb_lock_wait_timeout": "50",
+    "innodb_file_per_table": "",
+    "innodb_read_io_threads": "4",
+    "innodb_write_io_threads": "4",
+    "innodb_io_capacity": "200",
+    "wsrep_provider": "/usr/local/mysql/lib/libgalera_smm.so",
+    "wsrep_provider_options": "\"pc.ignore_sb=true\"",
+    "wsrep_cluster_address": "gcomm://",
+    "default_storage_engine": "InnoDB",
+    "binlog_format": "row",
+    "innodb_autoinc_lock_mode": "2",
+    "innodb_locks_unsafe_for_binlog": "1",
+    "wsrep_sst_method": "rsync",
+    "innodb_flush_log_at_trx_commit": "0",
+    "innodb_doublewrite": "0"
+  },
+  "mysqldump": {
+    "quick": "",
+    "max_allowed_packet": "16M"
+  },
+  "mysql": {
+    "no-auto-rehash": ""
+  },
+  "myisamchk": {
+    "key_buffer_size": "256M",
+    "sort_buffer_size": "256M",
+    "read_buffer": "2M",
+    "write_buffer": "2M"
+  },
+  "mysqlhotcopy": {
+    "interactive-timeout": ""
+  }
+}

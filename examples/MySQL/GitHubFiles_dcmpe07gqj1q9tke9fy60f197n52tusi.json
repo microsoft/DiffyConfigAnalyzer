@@ -1,0 +1,44 @@
+{
+  "client": {
+    "port": "@PORT",
+    "socket": "@MYSQL-SOCK"
+  },
+  "mysqld_safe": {
+    "socket": "@MYSQL-SOCK",
+    "nice": "0"
+  },
+  "mysqld": {
+    "user": "@DEVELOPER",
+    "pid-file": "@MYSQL-PID",
+    "socket": "@MYSQL-SOCK",
+    "port": "@PORT",
+    "basedir": "/usr",
+    "datadir": "@MYSQL-DATADIR",
+    "tmpdir": "/tmp",
+    "language": "/usr/share/mysql/english",
+    "skip-external-locking": "",
+    "bind-address": "127.0.0.1",
+    "key_buffer": "16M",
+    "max_allowed_packet": "16M",
+    "thread_stack": "128K",
+    "thread_cache_size": "8",
+    "myisam-recover": "BACKUP",
+    "max_connections": "100",
+    "query_cache_limit": "1M",
+    "query_cache_size": "16M",
+    "expire_logs_days": "10",
+    "max_binlog_size": "100M",
+    "default-storage-engine": "InnoDB",
+    "character-set-server": "utf8"
+  },
+  "mysqldump": {
+    "quick": "",
+    "quote-names": "",
+    "max_allowed_packet": "16M"
+  },
+  "mysql": {},
+  "isamchk": {
+    "key_buffer": "16M",
+    "!includedir /etc/mysql/conf.d/": ""
+  }
+}

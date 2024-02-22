@@ -1,0 +1,9 @@
+{
+  "mysql": {
+    "auto-rehash": "",
+    "default-character-set": "utf8",
+    "pager": "less",
+    "port": "3306",
+    "prompt": "\"[ \\u@\\h ][ \\d ]\\n[ \\c ]> \""
+  }
+}

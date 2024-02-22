@@ -1,0 +1,61 @@
+{
+    "RRH_DST_MAC_ADDR": "00:11:22:33:60:00",
+    "RRH_SRC_MAC_ADDR": "aa:bb:cc:dd:ee:ff",
+    "RRH_RU_PORT_ID": [
+        "0",
+        "1",
+        "2",
+        "3"
+    ],
+    "RRH_EN_SPC": "1",
+    "RRH_RRH_LTE_OR_NR": "1",
+    "RRH_TRX_EN_BIT_MASK": "0x0f",
+    "RRH_RF_EN_BIT_MASK": "0x0f",
+    "RRH_CMPR_HDR_PRESENT": "1",
+    "RRH_MSGS_IN_A_SYM": "1",
+    "RRH_CMPR_TYPE": [
+        "1",
+        "0"
+    ],
+    "RRH_CMPR_BIT_LENGTH": [
+        "9",
+        "16"
+    ],
+    "RRH_UL_INIT_SYM_ID": "12",
+    "RRH_TX_TRUNC_BITS": "4",
+    "RRH_RX_TRUNC_BITS": "6",
+    "RRH_MAX_PRB": "273",
+    "RRH_C_PLANE_VLAN_TAG": "0x0001",
+    "RRH_U_PLANE_VLAN_TAG": "0x0001",
+    "RRH_SLOT_TICKS_IN_SEC": "2000",
+    "RRH_SLOT_PERIOD_IN_SAMPLE": "61440",
+    "RRH_LO_FREQUENCY_KHZ": "3460260",
+    "RRH_TX_ATTENUATION": [
+        "30.0",
+        "30.0",
+        "30.0",
+        "30.0"
+    ],
+    "RRH_RX_ATTENUATION": [
+        "0.0",
+        "0.0",
+        "0.0",
+        "0.0"
+    ],
+    "RRH_BB_GENERAL_CTRL": [
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x0"
+    ],
+    "RRH_RF_GENERAL_CTRL": [
+        "0x3",
+        "0x0",
+        "0x0",
+        "0x0"
+    ],
+    "RRH_PTPV2_GRAND_MASTER_MODE": "0",
+    "RRH_PTPV2_OBSERVATION_TIME": "0",
+    "RRH_PTPV2_GRAND_MASTER_IP": "192.168.61.100",
+    "RRH_PTPV2_SUB_DOMAIN_NUM": "24"
+}

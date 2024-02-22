@@ -1,0 +1,18 @@
+{
+  "client": {
+    "loose-local-infile": "1",
+    "socket": "/johnny/saveliev/az/mysql/tmp/mysql.sock",
+    "port": "3307"
+  },
+  "mysqld": {
+    "basedir": "/johnny/saveliev/az/mysql",
+    "datadir": "/Johnny/saveliev/az/mysql/data",
+    "socket": "/johnny/saveliev/az/mysql/tmp/mysql.sock",
+    "port": "3307",
+    "key_buffer_size": "64M",
+    "myisam_sort_buffer_size": "8G",
+    "myisam_max_sort_file_size": "200G",
+    "read_buffer_size": "2G",
+    "innodb_buffer_pool_size": "2G"
+  }
+}

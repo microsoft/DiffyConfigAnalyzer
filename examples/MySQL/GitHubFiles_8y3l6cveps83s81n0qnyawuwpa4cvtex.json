@@ -1,0 +1,42 @@
+{
+  "mysqld": {
+    "character-set-server": "utf8mb4",
+    "skip-character-set-client-handshake": "",
+    "skip-external-locking": "",
+    "sql_mode": "NO_ENGINE_SUBSTITUTION,STRICT_TRANS_TABLES",
+    "max_connections": "31",
+    "max_connect_errors": "1000000",
+    "wait_timeout": "600",
+    "interactive_timeout": "600",
+    "connect_timeout": "10",
+    "max_allowed_packet": "1GB",
+    "log_output": "FILE",
+    "log_error": "/var/log/mysql/error.log",
+    "general_log_file": "/var/log/mysql/general_query.log",
+    "log-slow-admin-statements": "1",
+    "log-queries-not-using-indexes": "1",
+    "slow_query_log": "1",
+    "long_query_time": "1",
+    "slow_query_log_file": "/var/log/mysql/slow_query.log"
+  },
+  "mysqld_safe": {
+    "log-error": "/var/log/mysqld.log",
+    "pid-file": "/var/run/mysqld/mysqld.pid",
+    "socket": "/var/run/mysqld/mysqld.sock",
+    "nice": "0"
+  },
+  "client": {
+    "default-character-set": "utf8mb4"
+  },
+  "mysqldump": {
+    "quick": "",
+    "quote-names": "",
+    "max_allowed_packet": "32M",
+    "default-character-set": "utf8mb4"
+  },
+  "mysql": {
+    "default-character-set": "utf8mb4",
+    "prompt": "\"\u0000@\\h\\_[\\d]\\_\\R:\\m:\\s>\\_\"",
+    "pager": "\"less -n -i -F -X -E\""
+  }
+}

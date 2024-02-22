@@ -1,0 +1,20 @@
+{
+  "client": {
+    "default-character-set": "utf8",
+    "user": "root",
+    "password": "",
+    "host": "127.0.0.1",
+    "port": "3306",
+    "socket": "/tmp/mysql.sock"
+  },
+  "mysqld": {
+    "tmpdir": "/tmp",
+    "datadar": "/usr/local/var/mysql",
+    "socket": "/tmp/mysql.sock"
+  },
+  "mysql": {
+    "default-character-set": "utf8",
+    "show-warnings": "",
+    "prompt": "'\\u @ \\h : \\d> '"
+  }
+}

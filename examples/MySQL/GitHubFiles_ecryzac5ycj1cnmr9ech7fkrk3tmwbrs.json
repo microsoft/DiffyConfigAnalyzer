@@ -1,0 +1,20 @@
+{
+  "mysqld": {
+    "key_buffer": "330M",
+    "max_allowed_packet": "16M",
+    "thread_stack": "128K",
+    "thread_cache_size": "8",
+    "max_connections": "40",
+    "table_cache": "1024",
+    "key_buffer_size": "230M",
+    "join_buffer_size": "32M",
+    "sort_buffer_size": "32M",
+    "long_query_time": "1",
+    "read_buffer_size": "2MB",
+    "tmp_table_size": "256M",
+    "max_heap_table_size": "256M",
+    "read_rnd_buffer_size": "2MB",
+    "query_cache_limit": "96M",
+    "query_cache_size": "96M"
+  }
+}

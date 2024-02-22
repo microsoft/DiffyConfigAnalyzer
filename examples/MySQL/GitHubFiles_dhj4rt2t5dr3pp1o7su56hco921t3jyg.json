@@ -1,0 +1,18 @@
+{
+  "mysqld": {
+    "port": "3306",
+    "socket": "/tmp/mysql.sock",
+    "skip-external-locking": "",
+    "key_buffer_size": "16M",
+    "max_allowed_packet": "1M",
+    "table_open_cache": "64",
+    "sort_buffer_size": "512K",
+    "net_buffer_length": "8K",
+    "read_buffer_size": "256K",
+    "read_rnd_buffer_size": "512K",
+    "myisam_sort_buffer_size": "8M",
+    "character-set-server": "utf8",
+    "collation-server": "utf8_general_ci",
+    "sql_mode": "NO_ENGINE_SUBSTITUTION,STRICT_TRANS_TABLES"
+  }
+}

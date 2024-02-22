@@ -1,0 +1,24 @@
+{
+  "mysqld": {
+    "datadir": "/usr/local/var/lib/mysql",
+    "socket": "/tmp/mysql.sock",
+    "user": "mysql",
+    "symbolic-links": "0",
+    "!includedir /etc/mysql/conf.d": "",
+    "default-storage-engine": "innodb",
+    "log-bin": "binlog",
+    "expire_logs_days": "3",
+    "init-connect": "'set names utf8'",
+    "innodb": "",
+    "innodb-file-per-table": "",
+    "innodb-buffer-pool-size": "256M",
+    "innodb_adaptive_hash_index": "0",
+    "innodb_flush_log_at_trx_commit": "2",
+    "innodb_log_buffer_size": "8M",
+    "innodb_log_file_size": "128M"
+  },
+  "mysqld_safe": {
+    "log-error": "/usr/local/var/log/mysqld.log",
+    "pid-file": "/usr/local/var/run/mysqld/mysqld.pid"
+  }
+}

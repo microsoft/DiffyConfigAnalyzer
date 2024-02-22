@@ -1,0 +1,74 @@
+{
+  "client": {},
+  "mysqld": {
+    "tmpdir": "mysql",
+    "net_read_timeout": "300",
+    "net_write_timeout": "600",
+    "key_buffer_size": "1G",
+    "skip-external-locking": "",
+    "key_buffer": "16M",
+    "max_allowed_packet": "16M",
+    "table_open_cache": "1024",
+    "thread_cache": "512",
+    "sort_buffer_size": "512K",
+    "net_buffer_length": "8K",
+    "read_buffer_size": "256K",
+    "read_rnd_buffer_size": "512K",
+    "myisam_sort_buffer_size": "256M",
+    "max_connections": "256",
+    "query_cache_size": "0",
+    "query_cache_type": "0",
+    "sql-mode": "NO_ENGINE_SUBSTITUTION",
+    "myisam_max_sort_file_size": "24G",
+    "myisam_max_extra_sort_file_size": "24G",
+    "join_buffer_size": "512M",
+    "tmp_table_size": "32M",
+    "max_heap_table_size": "32M",
+    "skip-federated": "",
+    "skip-pbxt": "",
+    "server-id": "1",
+    "default-storage-engine": "InnoDB",
+    "innodb_file_per_table": "",
+    "innodb_file_format": "barracuda",
+    "innodb_data_file_path": "ibdata1:128M:autoextend",
+    "innodb_log_group_home_dir": "mysql/",
+    "innodb_buffer_pool_size": "1G",
+    "innodb_additional_mem_pool_size": "64M",
+    "innodb_log_file_size": "256M",
+    "innodb_log_buffer_size": "8M",
+    "innodb_flush_log_at_trx_commit": "2",
+    "innodb_log_files_in_group": "2",
+    "innodb_lock_wait_timeout": "80",
+    "skip-innodb_doublewrite": "",
+    "innodb_flush_method": "O_DIRECT",
+    "innodb_thread_concurrency": "0",
+    "innodb_adaptive_flushing": "1",
+    "innodb_max_dirty_pages_pct": "85"
+  },
+  "safe_mysqld": {
+    "log-error": "mysql/mysqld.err",
+    "nice": "0"
+  },
+  "mysqldump": {
+    "quick": "",
+    "max_allowed_packet": "16M"
+  },
+  "mysql": {
+    "prompt": "[\\R:\\m] \\u@\\d>"
+  },
+  "isamchk": {
+    "key_buffer": "20M",
+    "sort_buffer_size": "20M",
+    "read_buffer": "2M",
+    "write_buffer": "2M"
+  },
+  "myisamchk": {
+    "key_buffer": "20M",
+    "sort_buffer_size": "20M",
+    "read_buffer": "2M",
+    "write_buffer": "2M"
+  },
+  "mysqlhotcopy": {
+    "interactive-timeout": ""
+  }
+}

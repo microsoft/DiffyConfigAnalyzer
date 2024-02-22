@@ -1,0 +1,19 @@
+{
+  "mysqld": {
+    "datadir": "/var/lib/mysql",
+    "socket": "/var/lib/mysql/mysql.sock",
+    "user": "mysql",
+    "lower-case-table-name": "1",
+    "key_buffer": "384M",
+    "query_cache_size": "128M",
+    "sort_buffer_size": "32M",
+    "myisam_sort_buffer_size": "32M",
+    "query_cache_limit": "4M",
+    "tmp_table_size": "128M",
+    "old_passwords": "1"
+  },
+  "mysqld_safe": {
+    "log-error": "/var/log/mysqld.log",
+    "pid-file": "/var/run/mysqld/mysqld.pid"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "client": {
+    "port": "3306",
+    "socket": "/var/lib/mysql/mysql.sock"
+  },
+  "mysqld_safe": {
+    "slow-query-log": "/var/log/mysql/slow.log",
+    "long_query_time": "2",
+    "log-warnings": "",
+    "log-queries-not-using-indexes": "",
+    "log-error": "/var/log/mysql/error.log",
+    "relay-log": "/var/lib/mysql/relay-bin",
+    "relay-log-index": "/var/lib/mysql/relay-bin.index"
+  },
+  "mysqld": {}
+}

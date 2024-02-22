@@ -1,0 +1,26 @@
+{
+  "client": {
+    "default-character-set": "utf8"
+  },
+  "mysql": {
+    "default-character-set": "utf8"
+  },
+  "mysqld": {
+    "collation-server": "utf8_unicode_ci",
+    "init-connect": "'SET NAMES utf8'",
+    "character-set-server": "utf8",
+    "datadir": "/data/mysql/django-fac-webstore",
+    "socket": "/var/lib/mysql/mysql.sock",
+    "user": "mysql",
+    "old_passwords": "1",
+    "innodb_buffer_pool_size": "1G",
+    "query_cache_type": "1",
+    "query_cache_size": "256M",
+    "innodb_log_buffer_size": "8M",
+    "innodb_log_file_size": "64M"
+  },
+  "mysqld_safe": {
+    "log-error": "/var/log/mysqld.log",
+    "pid-file": "/var/run/mysqld/mysqld.pid"
+  }
+}

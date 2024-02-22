@@ -1,0 +1,9 @@
+{
+  "client": {
+    "user": "\"root\"",
+    "password": "\"\""
+  },
+  "mysql": {
+    "auto-rehash": ""
+  }
+}

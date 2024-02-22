@@ -1,0 +1,8 @@
+{
+  "client": {},
+  "mysql": {
+    "auto-rehash": "",
+    "prompt": "\\\\u@\\\\h:\\\\d>\\\\_",
+    "safe-updates": ""
+  }
+}

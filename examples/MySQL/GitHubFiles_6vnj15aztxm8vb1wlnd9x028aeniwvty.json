@@ -1,0 +1,36 @@
+{
+  "mysqld": {
+    "datadir": "/var/lib/mysql",
+    "tmpdir": "/var/lib/mysqltmp",
+    "socket": "/var/lib/mysql/mysql.sock",
+    "skip-external-locking": "1",
+    "skip-name-resolve": "",
+    "open-files-limit": "20000",
+    "thread-cache-size": "16",
+    "table-open-cache": "2048",
+    "table-definition-cache": "512",
+    "query-cache-size": "32M",
+    "query-cache-limit": "1M",
+    "sort-buffer-size": "1M",
+    "read-buffer-size": "1M",
+    "read-rnd-buffer-size": "8M",
+    "join-buffer-size": "1M",
+    "tmp-table-size": "64M",
+    "max-heap-table-size": "64M",
+    "back-log": "100",
+    "max-connect-errors": "10000",
+    "max-allowed-packet": "16M",
+    "interactive-timeout": "600",
+    "wait-timeout": "600",
+    "innodb": "FORCE",
+    "key-buffer-size": "64M",
+    "myisam-sort-buffer-size": "128M",
+    "innodb-buffer-pool-size": "16M",
+    "innodb_log_files_in_group": "2",
+    "innodb-log-buffer-size": "4M",
+    "server-id": "1"
+  },
+  "mysqld_safe": {
+    "log-error": "/var/log/mysqld.log"
+  }
+}

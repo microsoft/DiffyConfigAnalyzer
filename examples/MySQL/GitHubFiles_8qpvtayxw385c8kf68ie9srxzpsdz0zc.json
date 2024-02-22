@@ -1,0 +1,80 @@
+{
+  "client": {
+    "port": "3306",
+    "socket": "/var/run/mysqld/mysqld.sock"
+  },
+  "mysqld": {
+    "relay-log-index": "/mnt/mysql/domU-12-31-38-01-79-B1-relay-log.index",
+    "relay-log": "/mnt/mysql/domU-12-31-38-01-79-B1-relay-bin",
+    "user": "mysql",
+    "datadir": "/var/lib/mysql",
+    "socket": "/var/run/mysqld/mysqld.sock",
+    "port": "3306",
+    "old_passwords": "1",
+    "skip-locking": "",
+    "key_buffer": "128M",
+    "max_allowed_packet": "16M",
+    "table_cache": "256",
+    "sort_buffer_size": "1M",
+    "net_buffer_length": "8K",
+    "read_buffer_size": "1M",
+    "read_rnd_buffer_size": "4M",
+    "myisam_sort_buffer_size": "64M",
+    "query_cache_size": "24M",
+    "long_query_time": "5",
+    "max_connections": "500",
+    "log-slow-queries": "/var/log/mysql/mysqlslow.log",
+    "log_queries_not_using_indexes": "",
+    "log-error": "/var/log/mysql.err",
+    "thread_cache_size": "0",
+    "expire_logs_days": "15",
+    "ignore-builtin-innodb": "",
+    "plugin-load": "innodb=ha_innodb_plugin.so",
+    "innodb_data_home_dir": "/var/lib/mysql/",
+    "innodb_data_file_path": "ibdata1:10M:autoextend",
+    "innodb_log_group_home_dir": "/var/lib/mysql",
+    "innodb_file_per_table": "",
+    "innodb_buffer_pool_size": "1G",
+    "innodb_additional_mem_pool_size": "24M",
+    "innodb_log_file_size": "64M",
+    "innodb_log_buffer_size": "8M",
+    "innodb_flush_log_at_trx_commit": "2",
+    "innodb_lock_wait_timeout": "50",
+    "innodb_support_xa": "1",
+    "innodb_flush_method": "O_DIRECT",
+    "innodb_fast_shutdown": "1",
+    "log-bin": "/mnt/mysql-binlogs/mysql-bin",
+    "server-id": "1317330256",
+    "tmpdir": "/mnt/mysqltmp"
+  },
+  "mysql.server": {
+    "user": "mysql",
+    "basedir": "/usr"
+  },
+  "mysqld_safe": {
+    "log-error": "/var/log/mysqld.log",
+    "pid-file": "/var/run/mysqld/mysqld.pid"
+  },
+  "mysqldump": {
+    "quick": "",
+    "max_allowed_packet": "16M"
+  },
+  "mysql": {
+    "no-auto-rehash": ""
+  },
+  "isamchk": {
+    "key_buffer": "128M",
+    "sort_buffer_size": "128M",
+    "read_buffer": "2M",
+    "write_buffer": "2M"
+  },
+  "myisamchk": {
+    "key_buffer": "128M",
+    "sort_buffer_size": "128M",
+    "read_buffer": "2M",
+    "write_buffer": "2M"
+  },
+  "mysqlhotcopy": {
+    "interactive-timeout": ""
+  }
+}

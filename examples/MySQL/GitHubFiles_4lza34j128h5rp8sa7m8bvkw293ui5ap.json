@@ -1,0 +1,24 @@
+{
+  "mysqld": {
+    "innodb_buffer_pool_size": "6000M",
+    "join_buffer_size": "512M",
+    "sql_mode": "NO_ENGINE_SUBSTITUTION,STRICT_TRANS_TABLES",
+    "skip-external-locking": "",
+    "key_buffer_size": "384M",
+    "max_allowed_packet": "1M",
+    "table_open_cache": "512",
+    "sort_buffer_size": "2M",
+    "read_buffer_size": "2M",
+    "read_rnd_buffer_size": "8M",
+    "myisam_sort_buffer_size": "64M",
+    "thread_cache_size": "8",
+    "query_cache_size": "32M",
+    "thread_concurrency": "4",
+    "query_cache_type": "1",
+    "tmp_table_size": "500M",
+    "max_heap_table_size": "64M",
+    "innodb_thread_concurrency": "0",
+    "innodb_read_io_threads": "64",
+    "innodb_write_io_threads": "64"
+  }
+}

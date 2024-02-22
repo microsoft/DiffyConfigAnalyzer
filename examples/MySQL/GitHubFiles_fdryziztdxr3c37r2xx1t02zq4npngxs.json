@@ -1,0 +1,45 @@
+{
+  "mysqld": {
+    "user": "mysql",
+    "pid-file": "/var/run/mysqld/mysqld.pid",
+    "socket": "/var/run/mysqld/mysqld.sock",
+    "port": "3306",
+    "basedir": "/usr",
+    "datadir": "/var/lib/mysql",
+    "tmpdir": "/tmp",
+    "language": "/usr/share/mysql/english",
+    "skip-external-locking": "",
+    "old_passwords": "0",
+    "bind-address": "127.0.0.1",
+    "key_buffer": "1M",
+    "max_allowed_packet": "1M",
+    "thread_stack": "128K",
+    "thread_cache_size": "2",
+    "myisam-recover": "BACKUP",
+    "max_connections": "10",
+    "table_cache": "16",
+    "thread_concurrency": "5",
+    "query_cache_limit": "256K",
+    "query_cache_size": "1M",
+    "expire_logs_days": "10",
+    "max_binlog_size": "100M",
+    "skip-innodb": ""
+  },
+  "client": {
+    "port": "3306",
+    "socket": "/var/run/mysqld/mysqld.sock"
+  },
+  "mysqld_safe": {
+    "socket": "/var/run/mysqld/mysqld.sock",
+    "nice": "0"
+  },
+  "mysqldump": {
+    "quick": "",
+    "quote-names": "",
+    "max_allowed_packet": "16M"
+  },
+  "mysql": {},
+  "isamchk": {
+    "key_buffer": "16M"
+  }
+}

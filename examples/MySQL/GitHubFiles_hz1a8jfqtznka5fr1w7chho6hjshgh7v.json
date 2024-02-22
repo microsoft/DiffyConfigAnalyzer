@@ -1,0 +1,9 @@
+{
+  "mysql": {
+    "pager": "less -inSFX",
+    "prompt": "(\\\\u@\\\\h) [\\\\d]>\\\\_"
+  },
+  "mysqldump": {
+    "quick": ""
+  }
+}

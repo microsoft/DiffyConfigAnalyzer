@@ -1,0 +1,13 @@
+{
+  "mysqld": {
+    "character-set-server": "utf8",
+    "datadir": "/Library/WebServer/share/mysql",
+    "innodb_file_per_table": ""
+  },
+  "mysql": {
+    "default-character-set": "utf8"
+  },
+  "client": {
+    "default-character-set": "utf8"
+  }
+}

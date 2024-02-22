@@ -1,0 +1,10 @@
+{
+  "mysqld": {
+    "socket": "/var/lib/mysql/mysql.sock",
+    "log-bin": "/var/lib/mysql/log-bin",
+    "max_allowed_packet": "64M"
+  },
+  "mysqld_safe": {
+    "pid-file": "/var/run/mysqld/mysqld.pid"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "mysqld": {},
+  "client": {},
+  "mysql.server": {
+    "basedir": "/usr/local/mysql"
+  }
+}

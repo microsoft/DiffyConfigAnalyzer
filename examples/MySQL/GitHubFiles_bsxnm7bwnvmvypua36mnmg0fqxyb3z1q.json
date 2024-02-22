@@ -1,0 +1,11 @@
+{
+  "mysqld": {
+    "set-variable": "datadir=/var/lib/mysql",
+    "skip-locking": "",
+    "master-host": "192.168.1.1",
+    "log-slow-queries": "slow-log",
+    "ignore-builtin-innodb": "",
+    "plugin-load": "ha_innodb_plugin.so",
+    "wsrep-sst-auth": "\"root:somepassword#hash\""
+  }
+}

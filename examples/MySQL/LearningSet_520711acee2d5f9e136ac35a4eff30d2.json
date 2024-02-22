@@ -1,0 +1,40 @@
+{
+  "client": {
+    "port": "3306"
+  },
+  "mysql": {
+    "default-character-set": "utf8"
+  },
+  "mysqld": {
+    "port": "3306",
+    "basedir": "\"C:/Autonomy/MySQL/\"",
+    "datadir": "\"D:/MySQL Datafiles/data/\"",
+    "default-character-set": "utf8",
+    "default-storage-engine": "INNODB",
+    "sql-mode": "\"STRICT_TRANS_TABLES,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION\"",
+    "max_connections": "400",
+    "query_cache_size": "84M",
+    "table_cache": "256",
+    "tmp_table_size": "369M",
+    "thread_cache_size": "8",
+    "myisam_max_sort_file_size": "100G",
+    "myisam_sort_buffer_size": "738M",
+    "key_buffer_size": "320M",
+    "read_buffer_size": "64K",
+    "read_rnd_buffer_size": "256K",
+    "sort_buffer_size": "256K",
+    "innodb_data_home_dir": "\"D:/MySQL Datafiles/\"",
+    "innodb_additional_mem_pool_size": "26M",
+    "innodb_flush_log_at_trx_commit": "2",
+    "innodb_log_buffer_size": "13M",
+    "innodb_buffer_pool_size": "4096M",
+    "innodb_log_file_size": "622M",
+    "innodb_thread_concurrency": "18",
+    "innodb_data_file_path": "ibdata1:18M;inno_db_001:400M:autoextend",
+    "lower_case_table_names": "1",
+    "innodb_file_io_threads": "4",
+    "innodb_lock_wait_timeout": "50",
+    "log-bin": "mysql-bin",
+    "server-id": "1"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "mysqld": {
+    "basedir": "C:/mysql",
+    "datadir": "C:/mysql/data"
+  }
+}

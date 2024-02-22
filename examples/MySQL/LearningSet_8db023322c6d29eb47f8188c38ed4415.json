@@ -1,0 +1,12 @@
+{
+  "mysqld": {
+    "basedir": "c:\\Programs\\mysql-5.6.10-win32",
+    "datadir": "c:\\Programs\\mysql-5.6.10-win32\\data",
+    "port": "3306",
+    "server_id": "1",
+    "sql_mode": "NO_ENGINE_SUBSTITUTION,STRICT_TRANS_TABLES"
+  },
+  "client": {
+    "port": "3306"
+  }
+}

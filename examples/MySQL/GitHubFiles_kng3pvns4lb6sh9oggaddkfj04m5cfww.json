@@ -1,0 +1,15 @@
+{
+  "client": {
+    "default-character-set": "utf8",
+    "character-sets-dir": "/usr/share/mysql/charsets"
+  },
+  "mysqld": {
+    "default-character-set": "utf8",
+    "default-collation": "utf8_general_ci",
+    "character-sets-dir": "/usr/share/mysql/charsets",
+    "init-connect": "'SET NAMES utf8'"
+  },
+  "mysql": {
+    "default-character-set": "utf8"
+  }
+}

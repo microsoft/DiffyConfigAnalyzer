@@ -1,0 +1,31 @@
+{
+  "mysqld": {
+    "basedir": "/usr/local/mysql-5.0.18",
+    "server-id": "1",
+    "skip-name-resolve": "",
+    "skip-locking": "",
+    "set-variable": "myisam_sort_buffer_size=8M",
+    "log": "5-0-18.log",
+    "log-bin": "laptop-bin",
+    "log-error": "5-0-18.error-log",
+    "log-queries-not-using-indexes": "",
+    "log-slow-admin-statements": "",
+    "log-slow-queries": "5-0-18.slow-log",
+    "log-warnings": ""
+  },
+  "mysql": {
+    "no-auto-rehash": "",
+    "safe-updates": ""
+  },
+  "client": {
+    "socket": "/var/lib/mysql/mysql.sock",
+    "port": "3333"
+  },
+  "myisamchk": {
+    "set-variable": "write_buffer=2M"
+  },
+  "mysqldump": {
+    "quick": "",
+    "set-variable": "max_allowed_packet=16M"
+  }
+}

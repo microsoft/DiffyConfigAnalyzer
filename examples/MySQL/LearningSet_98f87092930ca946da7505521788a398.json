@@ -1,0 +1,100 @@
+{
+  "client": {
+    "port": "3306"
+  },
+  "mysql": {
+    "character-sets-dir": "/usr/share/mysql/charsets",
+    "default-character-set": "utf8"
+  },
+  "mysqladmin": {
+    "character-sets-dir": "/usr/share/mysql/charsets",
+    "default-character-set": "utf8"
+  },
+  "mysqlcheck": {
+    "character-sets-dir": "/usr/share/mysql/charsets",
+    "default-character-set": "utf8"
+  },
+  "mysqldump": {
+    "character-sets-dir": "/usr/share/mysql/charsets",
+    "default-character-set": "utf8",
+    "quick": "",
+    "max_allowed_packet": "16M"
+  },
+  "mysqlimport": {
+    "character-sets-dir": "/usr/share/mysql/charsets",
+    "default-character-set": "utf8"
+  },
+  "mysqlshow": {
+    "character-sets-dir": "/usr/share/mysql/charsets",
+    "default-character-set": "utf8"
+  },
+  "myisamchk": {
+    "character-sets-dir": "/usr/share/mysql/charsets",
+    "key_buffer": "20M",
+    "sort_buffer_size": "20M",
+    "read_buffer": "2M",
+    "write_buffer": "2M",
+    "ft_min_word_len": "3"
+  },
+  "myisampack": {
+    "character-sets-dir": "/usr/share/mysql/charsets"
+  },
+  "mysqld_safe": {
+    "err-log": "/db/mysql/log/mysql.err",
+    "open-file-limit": "4096"
+  },
+  "mysqld": {
+    "max_connections": "300",
+    "innodb_file_per_table": "1",
+    "log-slow-queries": "/db/mysql/log/slow_query.log",
+    "long_query_time": "2000000",
+    "ft_min_word_len": "3",
+    "max_heap_table_size": "64M",
+    "tmp_table_size": "64M",
+    "server-id": "1",
+    "log-bin": "/db/mysql/master-bin",
+    "log-bin-index": "/db/mysql/master-bin.index",
+    "character-set-server": "utf8",
+    "default-character-set": "utf8",
+    "user": "mysql",
+    "port": "3306",
+    "socket": "/var/run/mysqld/mysqld.sock",
+    "pid-file": "/var/run/mysqld/mysqld.pid",
+    "log-error": "/db/mysql/log/mysqld.err",
+    "basedir": "/usr",
+    "datadir": "/db/mysql",
+    "key_buffer": "32M",
+    "max_allowed_packet": "32M",
+    "table_cache": "1024",
+    "thread_cache": "512",
+    "sort_buffer_size": "100M",
+    "net_buffer_length": "64K",
+    "read_buffer_size": "1M",
+    "read_rnd_buffer_size": "1M",
+    "myisam_sort_buffer_size": "100M",
+    "myisam_max_sort_file_size": "2G",
+    "myisam_repair_threads": "1",
+    "language": "/usr/share/mysql/english",
+    "tmpdir": "/mnt/mysql/tmp",
+    "innodb_buffer_pool_size": "1275M",
+    "innodb_additional_mem_pool_size": "16M",
+    "innodb_data_file_path": "ibdata1:20M:autoextend",
+    "innodb_log_file_size": "96M",
+    "innodb_log_buffer_size": "8M",
+    "innodb_log_files_in_group": "2",
+    "innodb_flush_log_at_trx_commit": "2",
+    "innodb_flush_method": "O_DIRECT",
+    "innodb_lock_wait_timeout": "50",
+    "query_cache_size": "16M",
+    "query_cache_type": "1"
+  },
+  "isamchk": {
+    "key_buffer": "20M",
+    "sort_buffer_size": "20M",
+    "read_buffer": "2M",
+    "write_buffer": "2M"
+  },
+  "mysqlhotcopy": {
+    "interactive-timeout": ""
+  }
+}

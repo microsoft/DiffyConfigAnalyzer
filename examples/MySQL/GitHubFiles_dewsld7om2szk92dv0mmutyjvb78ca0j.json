@@ -1,0 +1,6 @@
+{
+  "mysql": {
+    "vertical": "",
+    "prompt": "\\n\\D\\_\\u@\\h:\\p[\\d]\\nMySQL Server:\\_\\v\\n>\\_"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "mysqld": {
+    "innodb_buffer_pool_size": "128M",
+    "innodb_log_group_home_dir": "/data/home/lex/local/mysql/log/",
+    "log_bin": "bin.log",
+    "log-bin-index": "bin.index",
+    "max_binlog_size": "1G",
+    "log-warnings": "1",
+    "log-error": "/data/home/lex/local/mysql/log/error.log",
+    "general_log": "1",
+    "general_log_file": "/data/home/lex/local/mysql/log/mysql.log",
+    "basedir": "/data/home/lex/local/mysql",
+    "datadir": "/data/home/lex/local/mysql/data",
+    "tmpdir": "/data/home/lex/local/mysql/tmp",
+    "port": "15933",
+    "socket": "/data/home/lex/local/mysql/tmp/mysql.sock",
+    "pid-file": "/data/home/lex/local/mysql/tmp/mysql.pid",
+    "join_buffer_size": "128M",
+    "sort_buffer_size": "10M",
+    "read_rnd_buffer_size": "2M",
+    "sql_mode": "NO_ENGINE_SUBSTITUTION,STRICT_TRANS_TABLES"
+  },
+  "client": {
+    "port": "15933",
+    "socket": "/data/home/lex/local/mysql/tmp/mysql.sock"
+  }
+}

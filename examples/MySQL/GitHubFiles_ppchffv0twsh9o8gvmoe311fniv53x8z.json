@@ -1,0 +1,47 @@
+{
+  "client": {
+    "port": "3306",
+    "socket": "/var/lib/mysql/mysql.sock"
+  },
+  "mysqldump": {
+    "quick": "",
+    "max_allowed_packet": "16M"
+  },
+  "mysqld": {
+    "max_allowed_packet": "1M",
+    "datadir": "/var/lib/mysql",
+    "socket": "/var/lib/mysql/mysql.sock",
+    "pid-file": "/var/run/mysqld/mysqld.pid",
+    "log-error": "/var/log/mysql/mysqld.err",
+    "basedir": "/usr",
+    "skip-locking": "",
+    "key_buffer": "100M",
+    "table_cache": "1024",
+    "thread_concurrency": "8",
+    "thread_cache": "40",
+    "sort_buffer_size": "512K",
+    "net_buffer_length": "8K",
+    "read_buffer_size": "256K",
+    "read_rnd_buffer_size": "512K",
+    "myisam_sort_buffer_size": "8M",
+    "language": "/usr/share/mysql/english",
+    "tmpdir": "/tmp/",
+    "innodb_file_per_table": "",
+    "innodb_buffer_pool_size": "300M",
+    "innodb_additional_mem_pool_size": "20M",
+    "innodb_data_file_path": "ibdata1:10M:autoextend",
+    "innodb_log_file_size": "384M",
+    "innodb_log_buffer_size": "12M",
+    "set-variable": "innodb_log_files_in_group=2",
+    "innodb_flush_log_at_trx_commit": "1",
+    "innodb_lock_wait_timeout": "50"
+  },
+  "mysql.server": {
+    "user": "mysql",
+    "basedir": "/var/lib"
+  },
+  "mysqld_safe": {
+    "log-error": "/var/log/mysqld.log",
+    "pid-file": "/var/run/mysqld/mysqld.pid"
+  }
+}

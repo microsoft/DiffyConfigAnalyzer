@@ -1,0 +1,66 @@
+{
+  "client": {
+    "port": "{{port}}",
+    "socket": "/tmp/mysqld_{{port}}.sock"
+  },
+  "mysqld": {
+    "port": "{{port}}",
+    "socket": "/tmp/mysqld_{{port}}.sock",
+    "pid_file": "/var/run/mysqld/mysqld_{{port}}.pid",
+    "skip-external-locking": "",
+    "explicit_defaults_for_timestamp": "true",
+    "key_buffer_size": "64M",
+    "max_connect_errors": "100",
+    "table_open_cache": "100",
+    "thread_concurrency": "64",
+    "max_connections": "100",
+    "wait_timeout": "600",
+    "tmp_table_size": "64M",
+    "query_cache_size": "16M",
+    "thread_cache_size": "8192",
+    "max_allowed_packet": "16M",
+    "sort_buffer_size": "4M",
+    "net_buffer_length": "1M",
+    "read_buffer_size": "16M",
+    "read_rnd_buffer_size": "32M",
+    "myisam_sort_buffer_size": "8M",
+    "log-bin": "mysql-bin",
+    "log_error": "{{MYSQLDATA_DIR}}/{{port}}/mysql.err",
+    "binlog_format": "mixed",
+    "binlog_cache_size": "8M",
+    "expire_logs_days": "5",
+    "basedir": "/usr/local/mysql",
+    "datadir": "{{MYSQLDATA_DIR}}/{{port}}/data",
+    "server-id": "1",
+    "innodb_data_home_dir": "{{MYSQLDATA_DIR}}/{{port}}/data",
+    "innodb-file-per-table": "1",
+    "innodb_data_file_path": "ibdata1:10M:autoextend",
+    "innodb_log_group_home_dir": "{{MYSQLDATA_DIR}}/{{port}}/binlog",
+    "innodb_buffer_pool_size": "128M",
+    "innodb_log_file_size": "64M",
+    "innodb_log_buffer_size": "2M",
+    "innodb_lock_wait_timeout": "600",
+    "innodb_flush_log_at_trx_commit": "2",
+    "innodb_flush_method": "O_DIRECT",
+    "replicate-ignore-db": "performance_schema",
+    "max_relay_log_size": "1024M",
+    "log_slave_updates": "1",
+    "slave-skip-errors": "1062"
+  },
+  "mysqldump": {
+    "quick": "",
+    "max_allowed_packet": "16M"
+  },
+  "mysql": {
+    "no-auto-rehash": ""
+  },
+  "myisamchk": {
+    "key_buffer_size": "20M",
+    "sort_buffer_size": "20M",
+    "read_buffer": "2M",
+    "write_buffer": "2M"
+  },
+  "mysqlhotcopy": {
+    "interactive-timeout": ""
+  }
+}

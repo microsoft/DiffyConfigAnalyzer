@@ -1,0 +1,7 @@
+{
+  "client": {
+    "port": "{{ mysql_port }}",
+    "socket": "{{ mysql_sock }}"
+  },
+  "mysqld": {}
+}

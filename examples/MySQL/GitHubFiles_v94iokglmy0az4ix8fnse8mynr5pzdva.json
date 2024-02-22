@@ -1,0 +1,27 @@
+{
+  "mysqld": {
+    "datadir": "/var/lib/mysql",
+    "socket": "/var/lib/mysql/mysql.sock",
+    "user": "mysql",
+    "symbolic-links": "0",
+    "key_buffer": "64M",
+    "innodb_buffer_pool_size": "32M",
+    "join_buffer_size": "512K",
+    "max_allowed_packet": "256M",
+    "thread_stack": "256K",
+    "thread_cache_size": "16K",
+    "myisam-recover": "BACKUP",
+    "max_connections": "100",
+    "table_cache": "64",
+    "innodb_file_per_table": "1",
+    "query_cache_limit": "32M",
+    "query_cache_size": "64M"
+  },
+  "isamchk": {
+    "key_buffer": "16M"
+  },
+  "mysqld_safe": {
+    "log-error": "/var/log/mysqld.log",
+    "pid-file": "/var/run/mysqld/mysqld.pid"
+  }
+}

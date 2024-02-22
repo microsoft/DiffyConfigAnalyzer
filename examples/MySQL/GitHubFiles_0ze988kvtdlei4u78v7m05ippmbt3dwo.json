@@ -1,0 +1,50 @@
+{
+  "client": {
+    "port": "3306"
+  },
+  "mysqld": {
+    "port": "3306",
+    "skip-locking": "",
+    "key_buffer": "16K",
+    "max_allowed_packet": "1M",
+    "table_cache": "4",
+    "sort_buffer": "64K",
+    "read_buffer_size": "128K",
+    "read_rnd_buffer_size": "256K",
+    "net_buffer_length": "2K",
+    "thread_stack": "192K",
+    "server-id": "1",
+    "basedir": "\"H:/to repo/sahana-agasti-portable2/PortableApps/SahanaPortable2/usr/local/mysql/\"",
+    "datadir": "\"H:/to repo/sahana-agasti-portable2/PortableApps/SahanaPortable2/usr/local/mysql/data/\"",
+    "tmpdir": "\"H:/to repo/sahana-agasti-portable2/PortableApps/SahanaPortable2/tmp\"",
+    "pid-file": "mysql.pid",
+    "skip-innodb": "",
+    "innodb_data_home_dir": "\"H:/to repo/sahana-agasti-portable2/PortableApps/SahanaPortable2/usr/local/mysql/data/\"",
+    "innodb_data_file_path": "ibdata1:10M:autoextend",
+    "innodb_log_group_home_dir": "\"H:/to repo/sahana-agasti-portable2/PortableApps/SahanaPortable2/usr/local/mysql/data/\"",
+    "innodb_buffer_pool_size": "16M",
+    "innodb_additional_mem_pool_size": "2M",
+    "innodb_log_file_size": "5M",
+    "innodb_log_buffer_size": "8M",
+    "innodb_flush_log_at_trx_commit": "1",
+    "innodb_lock_wait_timeout": "50"
+  },
+  "mysqldump": {
+    "quick": "",
+    "max_allowed_packet": "16M"
+  },
+  "mysql": {
+    "no-auto-rehash": ""
+  },
+  "isamchk": {
+    "key_buffer": "8M",
+    "sort_buffer": "8M"
+  },
+  "myisamchk": {
+    "key_buffer": "8M",
+    "sort_buffer": "8M"
+  },
+  "mysqlhotcopy": {
+    "interactive-timeout": ""
+  }
+}

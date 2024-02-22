@@ -1,0 +1,24 @@
+{
+  "mysqld": {
+    "skip-external-locking": "",
+    "tmp_table_size": "64M",
+    "max_heap_table_size": "64M",
+    "max_connections": "128",
+    "table_open_cache": "1024",
+    "table_definition_cache": "1024",
+    "open_files_limit": "400",
+    "key_buffer_size": "64M",
+    "query_cache_size": "0",
+    "query_cache_type": "0",
+    "innodb_buffer_pool_size": "300M",
+    "innodb_additional_mem_pool_size": "16M",
+    "read_buffer_size": "8M",
+    "read_rnd_buffer_size": "16M",
+    "join_buffer_size": "8M",
+    "sort_buffer_size": "16M",
+    "innodb_file_per_table": "",
+    "innodb_autoextend_increment": "64",
+    "innodb_thread_concurrency": "8",
+    "innodb_commit_concurrency": "8"
+  }
+}

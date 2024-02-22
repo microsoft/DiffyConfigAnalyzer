@@ -1,0 +1,24 @@
+{
+  "client": {
+    "port": "3306",
+    "socket": "/var/lib/mysql/mysql.sock"
+  },
+  "mysqld": {
+    "socket": "/var/lib/mysql/mysql.sock",
+    "character_set_server": "utf8",
+    "datadir": "/var/lib/mysql/data",
+    "innodb_data_home_dir": "/var/lib/mysql/innodb",
+    "innodb_log_group_home_dir": "/var/log/mysql/innodb",
+    "pid-file": "/var/run/mysqld/mysqld.pid",
+    "user": "mysql",
+    "bind-address": "0.0.0.0",
+    "key_buffer": "512M",
+    "symbolic-links": "0",
+    "max_allowed_packet": "16M",
+    "query_cache_size": "256M",
+    "thread_cache_size": "4",
+    "table_cache": "256",
+    "thread_concurrency": "2",
+    "slow_query_log_file": "/var/lib/mysql/slow_query.log"
+  }
+}

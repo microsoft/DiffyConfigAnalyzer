@@ -1,0 +1,30 @@
+{
+  "mysql": {
+    "prompt": "'mysql [\\h] {\\u} (\\d) > '"
+  },
+  "client": {
+    "user": "msandbox",
+    "password": "msandbox",
+    "port": "5521",
+    "socket": "/tmp/mysql_sandbox5521.sock"
+  },
+  "mysqld": {
+    "user": "root",
+    "port": "5521",
+    "socket": "/tmp/mysql_sandbox5521.sock",
+    "basedir": "/mnt/data/mysql_binaries/5.5.21",
+    "datadir": "/mnt/data/benchmarks/db_data",
+    "tmpdir": "/mnt/data/sandboxes/msb_5_5_21/tmp",
+    "pid-file": "/mnt/data/sandboxes/msb_5_5_21/data/mysql_sandbox5521.pid",
+    "log-error": "/mnt/data/sandboxes/msb_5_5_21/data/msandbox.err",
+    "innodb_file_per_table": "1",
+    "innodb_file_format": "barracuda",
+    "innodb_buffer_pool_size": "6G",
+    "innodb_log_file_size": "512M",
+    "innodb_log_files_in_group": "2",
+    "innodb_flush_log_at_trx_commit": "2",
+    "innodb_flush_method": "O_DIRECT",
+    "query_cache_size": "0",
+    "query_cache_type": "0"
+  }
+}

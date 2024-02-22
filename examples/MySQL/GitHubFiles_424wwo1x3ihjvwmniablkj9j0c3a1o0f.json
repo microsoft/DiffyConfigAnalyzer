@@ -1,0 +1,44 @@
+{
+  "mysqld": {
+    "user": "mysql",
+    "port": "3306",
+    "socket": "/var/run/mysqld/mysqld.sock",
+    "key_buffer": "16K",
+    "max_allowed_packet": "1M",
+    "table_cache": "4",
+    "sort_buffer_size": "64K",
+    "read_buffer_size": "256K",
+    "read_rnd_buffer_size": "256K",
+    "net_buffer_length": "2K",
+    "thread_stack": "256K",
+    "log_error": "/var/log/mysql.err",
+    "innodb_data_home_dir": "/var/lib/mysql/",
+    "innodb_data_file_path": "ibdata1:10M:autoextend",
+    "innodb_log_group_home_dir": "/var/lib/mysql/",
+    "innodb_buffer_pool_size": "4M",
+    "innodb_additional_mem_pool_size": "1M",
+    "innodb_log_file_size": "1M",
+    "innodb_log_buffer_size": "1M",
+    "innodb_flush_log_at_trx_commit": "1",
+    "innodb_lock_wait_timeout": "50",
+    "innodb_use_native_aio": "0"
+  },
+  "mysqldump": {
+    "quick": "",
+    "max_allowed_packet": "16M"
+  },
+  "mysql": {
+    "no-auto-rehash": ""
+  },
+  "isamchk": {
+    "key_buffer": "8M",
+    "sort_buffer_size": "8M"
+  },
+  "myisamchk": {
+    "key_buffer": "8M",
+    "sort_buffer_size": "8M"
+  },
+  "mysqlhotcopy": {
+    "interactive-timeout": ""
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "mysql": {
+    "auto-rehash": "",
+    "pager": "grcat ~/.grc/mysql.conf"
+  },
+  "myslqd": {
+    "default-storage-engine": "INNODB",
+    "default-character-set": "utf8"
+  }
+}

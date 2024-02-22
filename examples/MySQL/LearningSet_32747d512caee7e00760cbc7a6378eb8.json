@@ -1,0 +1,16 @@
+{
+  "mysqld": {
+    "basedir": "C:/apachefriends/xampp/mysql",
+    "datadir": "C:/apachefriends/xampp/mysql/data",
+    "log": "hostname.log"
+  },
+  "WinMySQLadmin": {
+    "server": "C:/apachefriends/xampp/mysql/bin/mysqld.exe",
+    "user": "xxxxx",
+    "password": "xxxxxxxxxxxxxxxx",
+    "log": "OFF",
+    "log_bin": "OFF",
+    "log_bin_trust_function_creators": "OFF",
+    "log_error": ".\\HomeDesktop-24.err"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "mysqld": {
+    "innodb_buffer_pool_size": "64M",
+    "max-allowed-packet": "256M",
+    "datadir": "/tmp/ibxtools",
+    "thread_cache_size": "4",
+    "tmpdir": "/tmp",
+    "binlog_format": "ROW",
+    "default_storage_engine": "InnoDB",
+    "innodb_autoinc_lock_mode": "2",
+    "innodb_locks_unsafe_for_binlog": "1",
+    "innodb_file_per_table": "",
+    "innodb_log_file_size": "2048M",
+    "innodb_log_files_in_group": "3",
+    "innodb_flush_log_at_trx_commit": "2",
+    "key-buffer-size": "32M",
+    "myisam-recover": "FORCE,BACKUP",
+    "max-connect-errors": "1000000",
+    "innodb": "FORCE",
+    "sql_mode": "NO_ENGINE_SUBSTITUTION",
+    "tmp-table-size": "32M",
+    "max-heap-table-size": "64M",
+    "max-connections": "250",
+    "open-files-limit": "65535",
+    "table-definition-cache": "1024",
+    "table-open-cache": "2048",
+    "log-error": "/tmp/ibxrestore.log",
+    "log-queries-not-using-indexes": "0",
+    "slow-query-log": "0",
+    "skip-networking": "",
+    "socket": "/tmp/ibxrestore.sock"
+  },
+  "mysqldump": {
+    "max_allowed_packet": "512M"
+  }
+}

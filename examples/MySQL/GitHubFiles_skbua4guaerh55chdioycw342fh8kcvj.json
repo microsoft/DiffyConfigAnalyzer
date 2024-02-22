@@ -1,0 +1,10 @@
+{
+  "mysql": {
+    "user": "root",
+    "password": "WebPanel"
+  },
+  "mysqladmin": {
+    "user": "root",
+    "password": "WebPanel"
+  }
+}

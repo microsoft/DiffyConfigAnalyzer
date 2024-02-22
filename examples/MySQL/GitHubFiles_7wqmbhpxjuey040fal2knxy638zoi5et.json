@@ -1,0 +1,50 @@
+{
+  "client": {
+    "port": "3306",
+    "socket": "/var/lib/mysql/mysql.sock"
+  },
+  "mysqld": {
+    "bind-address": "127.0.0.1",
+    "port": "3306",
+    "socket": "/var/lib/mysql/mysql.sock",
+    "default-storage-engine": "innodb",
+    "back_log": "600",
+    "external-locking": "FALSE",
+    "skip-name-resolve": "",
+    "max_allowed_packet": "32M",
+    "max_connections": "1500",
+    "max_connect_errors": "50000",
+    "query_cache_size": "1M",
+    "max_heap_table_size": "64M",
+    "read_buffer_size": "8M",
+    "read_rnd_buffer_size": "16M",
+    "sort_buffer_size": "8M",
+    "join_buffer_size": "8M",
+    "thread_cache_size": "8",
+    "thread_concurrency": "8",
+    "innodb_file_per_table": "1",
+    "innodb_data_home_dir": "/home/mysql_data/",
+    "innodb_data_file_path": "ibdata1:2048M:autoextend",
+    "innodb_log_group_home_dir": "/home/mysql_logs/",
+    "innodb_buffer_pool_size": "2G",
+    "innodb_additional_mem_pool_size": "512M",
+    "innodb_log_file_size": "5M",
+    "innodb_log_buffer_size": "100M",
+    "innodb_flush_log_at_trx_commit": "0",
+    "innodb_flush_method": "O_DIRECT",
+    "innodb_lock_wait_timeout": "50",
+    "character-set-server": "utf8",
+    "slow_query_log": "",
+    "long_query_time": "1",
+    "slow-query-log-file": "/home/mysql_logs/log-slow.log"
+  },
+  "mysqldump": {
+    "quick": ""
+  },
+  "mysql": {
+    "no-auto-rehash": ""
+  },
+  "mysqlhotcopy": {
+    "interactive-timeout": ""
+  }
+}

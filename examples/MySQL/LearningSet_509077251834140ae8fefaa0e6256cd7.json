@@ -1,0 +1,90 @@
+{
+  "mysqld": {
+    "datadir": "/var/lib/mysql",
+    "socket": "/var/lib/mysql/mysql.sock",
+    "skip-locking": "",
+    "skip-name-resolve": "",
+    "key_buffer": "64M",
+    "max_allowed_packet": "16M",
+    "table_cache": "2048",
+    "sort_buffer_size": "8M",
+    "read_buffer_size": "2M",
+    "key_buffer_size": "512M",
+    "read_rnd_buffer_size": "16M",
+    "thread_cache_size": "16",
+    "thread_concurrency": "8",
+    "query_cache_size": "32M",
+    "tmp_table_size": "64M",
+    "max_heap_table_size": "64M",
+    "back_log": "100",
+    "max_connect_errors": "10000",
+    "join_buffer_size": "8M",
+    "open-files": "20000",
+    "interactive_timeout": "600",
+    "wait_timeout": "600",
+    "thread_stack": "192K",
+    "transaction_isolation": "REPEATABLE-READ",
+    "max_connections": "500",
+    "binlog_cache_size": "1M",
+    "log-slow-queries": "/var/lib/mysql/slow-log",
+    "log": "/var/lib/mysql/mysql-log",
+    "long_query_time": "10",
+    "log_long_format": "",
+    "log-queries-not-using-indexes": "",
+    "ndbcluster": "",
+    "ndb-connectstring": "192.168.10.22",
+    "default-table-type": "NDBCLUSTER",
+    "ndb_force_send": "off",
+    "ndb-cluster-connection-pool": "50",
+    "skip-innodb": ""
+  },
+  "mysql_cluster": {
+    "ndb-connectstring": "192.168.10.22"
+  },
+  "mysql.server": {
+    "user": "mysql"
+  },
+  "mysqld_safe": {
+    "err-log": "/var/log/mysqld.log",
+    "pid-file": "/var/run/mysqld/mysqld.pid",
+    "open_files_limit": "65536"
+  },
+  "NDBD DEFAULT": {
+    "noofreplicas": "2",
+    "datamemory": "6144M",
+    "indexmemory": "1024M",
+    "maxnoofattributes": "10000",
+    "nooffragmentlogfiles": "128",
+    "undoindexbuffer": "32M",
+    "redobuffer": "32M",
+    "maxnoofconcurrenttransactions": "4096",
+    "maxnoofconcurrentoperations": "500000",
+    "maxnooforderedindexes": "1024",
+    "datadir": "/var/lib/mysql-cluster",
+    "diskcheckpointspeed": "10M",
+    "diskcheckpointspeedinrestart": "100M",
+    "timebetweenglobalcheckpoints": "1000",
+    "timebetweenlocalcheckpoints": "20",
+    "realtimescheduler": "1",
+    "lockexecutethreadtocpu": "4",
+    "lockmaintthreadstocpu": "4",
+    "schedulerexecutiontimer": "80",
+    "schedulerspintimer": "400",
+    "transactiondeadlockdetectiontimeout": "5000",
+    "stoponerror": "0",
+    "odirect": "1"
+  },
+  "MYSQLD DEFAULT": {},
+  "NDB_MGMD DEFAULT": {},
+  "TCP DEFAULT": {
+    "receivebuffermemory": "1M",
+    "sendbuffermemory": "2M"
+  },
+  "NDB_MGMD": {
+    "hostname": "192.168.10.22",
+    "id": "1"
+  },
+  "NDBD": {
+    "hostname": "192.168.10.23"
+  }
+}

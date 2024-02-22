@@ -1,0 +1,11 @@
+{
+  "mysqld": {
+    "basedir": "/u01/app/mysql",
+    "datadir": "/u07/mysql/data",
+    "log-slow-queries": ""
+  },
+  "mysql_upgrade": {
+    "basedir": "/u01/app/mysql",
+    "datadir": "/u07/mysql/data"
+  }
+}

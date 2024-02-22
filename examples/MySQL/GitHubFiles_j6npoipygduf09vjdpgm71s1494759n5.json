@@ -1,0 +1,14 @@
+{
+  "mysqld": {
+    "max_allowed_packet": "64M",
+    "character-set-server": "utf8",
+    "default-character-set": "utf8",
+    "innodb_file_per_table": ""
+  },
+  "mysql": {
+    "default-character-set": "utf8"
+  },
+  "client": {
+    "default-character-set": "utf8"
+  }
+}

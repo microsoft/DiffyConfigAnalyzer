@@ -1,0 +1,6 @@
+{
+  "mysqld": {
+    "skip-networking": "",
+    "max_allowed_packet": "17M"
+  }
+}

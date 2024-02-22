@@ -1,0 +1,45 @@
+{
+  "mysql": {
+    "port": "3306",
+    "socket": "/usr/local/var/percona/mysql.sock"
+  },
+  "mysqld": {
+    "user": "mysql",
+    "default_storage_engine": "InnoDB",
+    "socket": "/usr/local/var/percona/mysql.sock",
+    "pid_file": "/usr/local/var/percona/mysql.pid",
+    "key_buffer_size": "32M",
+    "myisam_recover": "FORCE,BACKUP",
+    "max_allowed_packet": "16M",
+    "max_connect_errors": "1000000",
+    "datadir": "/usr/local/var/percona/",
+    "tmp_table_size": "32M",
+    "max_heap_table_size": "32M",
+    "query_cache_type": "0",
+    "query_cache_size": "0",
+    "max_connections": "500",
+    "thread_cache_size": "50",
+    "table_definition_cache": "4096",
+    "table_open_cache": "4096",
+    "innodb_flush_method": "O_DIRECT",
+    "innodb_log_files_in_group": "2",
+    "innodb_log_file_size": "256M",
+    "innodb_flush_log_at_trx_commit": "2",
+    "innodb_file_per_table": "1",
+    "innodb_buffer_pool_size": "2G",
+    "log_error": "/usr/local/var/percona/mysql-error.log",
+    "log_queries_not_using_indexes": "1",
+    "slow_query_log": "1",
+    "slow_query_log_file": "/usr/local/var/percona/mysql-slow.log",
+    "character-set-client-handshake": "FALSE",
+    "character-set-server": "utf8mb4",
+    "collation-server": "utf8mb4_general_ci"
+  },
+  "mysqlshow": {
+    "port": "3306",
+    "socket": "/usr/local/var/percona/mysql.sock"
+  },
+  "mysqladmin": {
+    "socket": "/usr/local/var/percona/mysql.sock"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "mysqld_safe": {},
+  "client": {
+    "socket": "/tmp/mysql.sock"
+  },
+  "mysqld": {
+    "socket": "/tmp/mysql.sock",
+    "default_time_zone": "'+00:00'",
+    "max_connections": "150",
+    "max_user_connections": "150",
+    "key_buffer": "64M",
+    "myisam_sort_buffer_size": "64M",
+    "join_buffer_size": "64M",
+    "read_buffer_size": "64M",
+    "sort_buffer_size": "64M",
+    "thread_cache_size": "286",
+    "interactive_timeout": "25",
+    "wait_timeout": "1800",
+    "connect_timeout": "10",
+    "max_allowed_packet": "1M",
+    "max_connect_errors": "1000",
+    "query_cache_limit": "1M",
+    "query_cache_size": "0",
+    "query_cache_type": "0",
+    "tmp_table_size": "16M",
+    "innodb_file_per_table": "",
+    "innodb_data_file_path": "ibdata1:10M:autoextend:max:10G",
+    "innodb_buffer_pool_size": "0",
+    "innodb_additional_mem_pool_size": "20M",
+    "innodb_log_file_size": "256M",
+    "innodb_log_buffer_size": "8M",
+    "innodb_flush_log_at_trx_commit": "1"
+  }
+}

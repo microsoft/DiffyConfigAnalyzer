@@ -1,0 +1,10 @@
+{
+  "mysqld": {
+    "expire_logs_days": "3",
+    "sync_binlog": "1",
+    "max_binlog_size": "512M",
+    "binlog_ignore_db": "mysql",
+    "log_slave_updates": "",
+    "binlog_format": "mixed"
+  }
+}

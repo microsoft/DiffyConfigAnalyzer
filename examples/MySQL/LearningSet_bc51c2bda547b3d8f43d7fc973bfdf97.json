@@ -1,0 +1,34 @@
+{
+  "mysqld_safe": {
+    "socket": "/var/run/mysqld/mysqld.sock",
+    "nice": "0"
+  },
+  "mysqld": {
+    "innodb_file_per_table": "",
+    "innodb_buffer_pool_size": "10G",
+    "innodb_log_buffer_size": "4M",
+    "innodb_flush_log_at_trx_commit": "2",
+    "innodb_thread_concurrency": "8",
+    "skip-slave-start": "",
+    "server-id": "3",
+    "user": "mysql",
+    "pid-file": "/var/run/mysqld/mysqld.pid",
+    "socket": "/var/run/mysqld/mysqld.sock",
+    "port": "3306",
+    "basedir": "/usr",
+    "datadir": "/DB2/mysql",
+    "tmpdir": "/tmp",
+    "skip-external-locking": "",
+    "key_buffer": "16M",
+    "max_allowed_packet": "16M",
+    "thread_stack": "128K",
+    "thread_cache_size": "8",
+    "myisam-recover": "BACKUP",
+    "max_connections": "600",
+    "query_cache_limit": "1M",
+    "query_cache_size": "32M",
+    "skip-federated": "",
+    "slow-query-log": "",
+    "skip-name-resolve": ""
+  }
+}

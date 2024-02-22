@@ -1,0 +1,10 @@
+{
+  "client": {
+    "user": "root",
+    "password": ""
+  },
+  "mysql": {
+    "database": "gonorthwebsites",
+    "prompt": "(\\\\u@\\\\h) [\\\\d]>\\\\_"
+  }
+}

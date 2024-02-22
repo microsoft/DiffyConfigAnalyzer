@@ -1,0 +1,7 @@
+{
+  "mysqld": {
+    "general_log": "1",
+    "log": "/var/log/mysql-query.log",
+    "sql_mode": "NO_ENGINE_SUBSTITUTION,STRICT_TRANS_TABLES"
+  }
+}

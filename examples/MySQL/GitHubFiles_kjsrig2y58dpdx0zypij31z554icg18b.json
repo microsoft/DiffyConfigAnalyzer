@@ -1,0 +1,7 @@
+{
+  "mysqld": {
+    "bind-address": "0.0.0.0",
+    "datadir": "/app/mysql",
+    "skip_name_resolve": ""
+  }
+}

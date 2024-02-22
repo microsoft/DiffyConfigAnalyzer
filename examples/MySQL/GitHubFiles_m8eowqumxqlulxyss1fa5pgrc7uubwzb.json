@@ -1,0 +1,8 @@
+{
+  "mysql": {
+    "prompt": "'\u001b[32m\\u@\\h[\\d]\u001b[0m\\n>\\_'",
+    "auto-rehash": "",
+    "default-character-set": "utf8",
+    "show-warnings": ""
+  }
+}

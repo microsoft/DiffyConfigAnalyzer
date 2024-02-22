@@ -1,0 +1,68 @@
+{
+  "client": {
+    "port": "{{ mysql.server.port }}",
+    "socket": "/var/run/mysqld/mysqld.sock"
+  },
+  "mysqld_safe": {
+    "socket": "/var/run/mysqld/mysqld.sock",
+    "nice": "0",
+    "open_files_limit": "1024"
+  },
+  "mysqld": {
+    "user": "mysql",
+    "pid-file": "/var/run/mysqld/mysqld.pid",
+    "socket": "/var/run/mysqld/mysqld.sock",
+    "port": "{{ mysql.server.port }}",
+    "basedir": "/usr",
+    "datadir": "/var/lib/mysql",
+    "tmpdir": "/tmp",
+    "lc_messages_dir": "/usr/share/mysql",
+    "lc_messages": "en_US",
+    "skip-external-locking": "",
+    "bind-address": "{{ mysql.server.bind_address }}",
+    "max_connections": "{{ mysql.server.max_connections }}",
+    "max_connect_errors": "{{ mysql.server.max_connect_errors }}",
+    "back_log": "{{ mysql.server.back_log }}",
+    "connect_timeout": "5",
+    "wait_timeout": "{{ mysql.server.wait_timeout }}",
+    "max_allowed_packet": "32M",
+    "table_cache": "{{ mysql.server.table_cache }}",
+    "thread_cache_size": "{{ mysql.server.thread_cache_size }}",
+    "sort_buffer_size": "{{ mysql.server.sort_buffer_size }}",
+    "bulk_insert_buffer_size": "16M",
+    "tmp_table_size": "{{ mysql.server.tmp_table_size }}",
+    "max_heap_table_size": "{{ mysql.server.max_heap_table_size }}",
+    "join_buffer_size": "{{ mysql.server.join_buffer_size }}",
+    "query_cache_limit": "{{ mysql.server.query_cache_limit }}",
+    "query_cache_size": "{{ mysql.server.query_cache_size }}",
+    "log_warnings": "2",
+    "slow_query_log": "{{ mysql.server.slow_query_log }}",
+    "slow_query_log_file": "/var/log/mysql/mariadb-slow.log",
+    "long_query_time": "{{ mysql.server.long_query_time }}",
+    "log_slow_verbosity": "query_plan",
+    "log_bin": "/var/log/mysql/mariadb-bin",
+    "log_bin_index": "/var/log/mysql/mariadb-bin.index",
+    "expire_logs_days": "10",
+    "max_binlog_size": "{{ mysql.server.max_binlog_size }}",
+    "binlog_cache_size": "{{ mysql.server.binlog_cache_size }}",
+    "default_storage_engine": "InnoDB",
+    "innodb_buffer_pool_size": "{{ mysql.server.innodb.innodb_buffer_pool_size }}",
+    "innodb_log_buffer_size": "{{ mysql.server.innodb.innodb_log_file_size }}",
+    "innodb_file_per_table": "1",
+    "innodb_open_files": "{{ mysql.server.innodb.innodb_open_files }}",
+    "innodb_io_capacity": "400",
+    "innodb_flush_method": "O_DIRECT",
+    "innodb_additional_mem_pool_size": "{{ mysql.server.innodb.innodb_additional_mem_pool_size }}",
+    "innodb_flush_log_at_trx_commit": "{{ mysql.server.innodb.innodb_flush_log_at_trx_commit }}"
+  },
+  "mysqldump": {
+    "quick": "",
+    "quote-names": "",
+    "max_allowed_packet": "16M"
+  },
+  "mysql": {},
+  "isamchk": {
+    "key_buffer": "16M",
+    "!includedir /etc/mysql/conf.d/": ""
+  }
+}

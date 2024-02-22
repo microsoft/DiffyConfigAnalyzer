@@ -1,0 +1,14 @@
+{
+  "client": {
+    "host": "localhost",
+    "default-character-set": "utf8"
+  },
+  "mysql": {
+    "auto-rehash": "",
+    "safe-updates": "",
+    "default-character-set": "utf8"
+  },
+  "mysqld": {
+    "default-character-set": "utf8"
+  }
+}

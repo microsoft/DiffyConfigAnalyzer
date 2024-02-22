@@ -1,0 +1,40 @@
+{
+  "client": {
+    "port": "3306"
+  },
+  "mysql": {
+    "default-character-set": "latin1"
+  },
+  "mysqld": {
+    "port": "3306",
+    "basedir": "\"D:/MySQL/\"",
+    "datadir": "\"D:/MySQL/data\"",
+    "default-character-set": "latin1",
+    "default-storage-engine": "MYISAM",
+    "sql-mode": "\"\"",
+    "skip-locking": "",
+    "max_allowed_packet": "1M",
+    "table_open_cache": "512",
+    "max_connections": "1510",
+    "query_cache_size": "168M",
+    "table_cache": "3020",
+    "tmp_table_size": "30M",
+    "thread_cache_size": "64",
+    "myisam_max_sort_file_size": "100G",
+    "myisam_sort_buffer_size": "64M",
+    "key_buffer_size": "3072M",
+    "read_buffer_size": "2M",
+    "read_rnd_buffer_size": "8M",
+    "sort_buffer_size": "4M",
+    "innodb_data_home_dir": "\"D:/MySQL InnoDB Datafiles/\"",
+    "skip-innodb": "",
+    "innodb_additional_mem_pool_size": "11M",
+    "innodb_flush_log_at_trx_commit": "1",
+    "innodb_log_buffer_size": "6M",
+    "innodb_buffer_pool_size": "500M",
+    "innodb_log_file_size": "100M",
+    "innodb_thread_concurrency": "10",
+    "log-bin": "log",
+    "server-id": "1"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "mysqld": {
+    "basedir": "/tmp/mysql",
+    "datadir": "/tmp/data",
+    "socket": "/tmp/data/mysql.sock",
+    "tmpdir": "/tmp",
+    "user": "wolong"
+  },
+  "mysqld_safe": {
+    "log-error": "/tmp/data/error.log",
+    "pid-file": "/tmp/data/mysql.pid"
+  }
+}

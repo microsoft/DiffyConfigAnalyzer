@@ -1,0 +1,8 @@
+{
+  "mysql": {
+    "prompt": "mysql \\u@\\h:\\d> \\",
+    "auto-rehash": "",
+    "show-warnings": "",
+    "safe-updates": ""
+  }
+}

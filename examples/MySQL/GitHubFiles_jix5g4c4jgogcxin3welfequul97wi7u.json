@@ -1,0 +1,89 @@
+{
+  "client": {
+    "port": "3306",
+    "socket": "/run/mysqld/mysqld.sock"
+  },
+  "mysql": {
+    "character-sets-dir": "/usr/share/mysql/charsets",
+    "default-character-set": "utf8"
+  },
+  "mysqladmin": {
+    "character-sets-dir": "/usr/share/mysql/charsets",
+    "default-character-set": "utf8"
+  },
+  "mysqlcheck": {
+    "character-sets-dir": "/usr/share/mysql/charsets",
+    "default-character-set": "utf8"
+  },
+  "mysqldump": {
+    "character-sets-dir": "/usr/share/mysql/charsets",
+    "default-character-set": "utf8",
+    "quick": "",
+    "max_allowed_packet": "16M"
+  },
+  "mysqlimport": {
+    "character-sets-dir": "/usr/share/mysql/charsets",
+    "default-character-set": "utf8"
+  },
+  "mysqlshow": {
+    "character-sets-dir": "/usr/share/mysql/charsets",
+    "default-character-set": "utf8"
+  },
+  "myisamchk": {
+    "character-sets-dir": "/usr/share/mysql/charsets",
+    "key_buffer": "20M",
+    "sort_buffer_size": "20M",
+    "read_buffer": "2M",
+    "write_buffer": "2M"
+  },
+  "myisampack": {
+    "character-sets-dir": "/usr/share/mysql/charsets"
+  },
+  "mysqld_safe": {
+    "err-log": "/var/log/mysql/mysql.err"
+  },
+  "mysqld": {
+    "character-set-server": "utf8",
+    "user": "mysql",
+    "port": "3306",
+    "socket": "/run/mysqld/mysqld.sock",
+    "pid-file": "/run/mysqld/mysqld.pid",
+    "log-error": "/var/log/mysql/mysqld.err",
+    "basedir": "/usr",
+    "datadir": "/var/lib/mysql",
+    "skip-external-locking": "",
+    "key_buffer": "16M",
+    "max_allowed_packet": "4M",
+    "table_open_cache": "400",
+    "sort_buffer_size": "512K",
+    "net_buffer_length": "16K",
+    "read_buffer_size": "256K",
+    "read_rnd_buffer_size": "512K",
+    "myisam_sort_buffer_size": "8M",
+    "lc_messages_dir": "/usr/share/mysql",
+    "lc_messages": "en_US",
+    "bind-address": "127.0.0.1",
+    "log-bin": "",
+    "server-id": "1",
+    "tmpdir": "/tmp/",
+    "innodb_buffer_pool_size": "128M",
+    "innodb_data_file_path": "ibdata1:10M:autoextend:max:128M",
+    "innodb_log_file_size": "48M",
+    "innodb_log_buffer_size": "8M",
+    "innodb_log_files_in_group": "2",
+    "innodb_flush_log_at_trx_commit": "1",
+    "innodb_lock_wait_timeout": "50",
+    "innodb_file_per_table": "",
+    "loose-federated": ""
+  },
+  "isamchk": {
+    "key_buffer": "20M",
+    "sort_buffer_size": "20M",
+    "read_buffer": "2M",
+    "write_buffer": "2M"
+  },
+  "mysqlhotcopy": {
+    "interactive-timeout": ""
+  },
+  "mariadb": {}
+}

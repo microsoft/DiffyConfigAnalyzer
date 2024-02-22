@@ -1,0 +1,9 @@
+{
+  "client": {
+    "user": "root",
+    "password": "none"
+  },
+  "mysql": {
+    "database": "invenio"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "mysqld": {
+    "key_buffer": "512M",
+    "max_allowed_packet": "16M",
+    "table_cache": "10000",
+    "sort_buffer_size": "4M",
+    "net_buffer_length": "8K",
+    "read_buffer_size": "4M",
+    "read_rnd_buffer_size": "4M",
+    "myisam_sort_buffer_size": "8M",
+    "thread_cache": "16",
+    "query_cache_size": "16M",
+    "bulk_insert_buffer_size": "32M",
+    "max_connections": "256",
+    "wait_timeout": "31536000"
+  }
+}
