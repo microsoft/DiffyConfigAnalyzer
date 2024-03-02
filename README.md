@@ -15,7 +15,7 @@ Install [dotnet](https://dotnet.microsoft.com/en-us/) with support for [F#](http
 
 To get started, let's run Diffy on some example configurations -- 5G radio unit (RU) configurations in the `examples\5GvRAN` directory. Run the following command:
 
-```
+```bash
 .\build\diffy.exe --dir .\examples\5GvRAN\ --confidence 0.8 --tokens "num:[0-9]+" --token-costs "0.2" --outliers-path outliers
 ```
 
@@ -30,8 +30,10 @@ Opening the `outliers.csv` file, you can see lines such as:
 Name,Expression,Score
 retro_new_firmware.json,present(/RRH_PTPV2_VLAN_ID) = 'True',0.9054418774835514
 retro_rf_general_ctrl.json,value(/RRH_RF_GENERAL_CTRL/elt[0]/param[0]:0x[num]) = '0',0.9054418774835514
-retro_ptp_ip.json,value(/RRH_PTPV2_GRAND_MASTER_IP/param[0]:192.16[num].[num].1[num]) = '7',0.9054418774835514   retro_ptp_ip.json,pow2(/RRH_PTPV2_GRAND_MASTER_IP/param[0]:192.16[num].[num].1[num]) = 'False',0.9054418774835514
-retro_new_firmware.json,present(/RRH_PTPV2_OBSERVATION_TIME) = 'False',0.9054418774835514                        retro_new_firmware.json,value(/RRH_PTPV2_GRAND_MASTER_MODE/param[0]:[num]) = '2',0.9054418774835514
+retro_ptp_ip.json,value(/RRH_PTPV2_GRAND_MASTER_IP/param[0]:192.16[num].[num].1[num]) = '7',0.9054418774835514
+retro_ptp_ip.json,pow2(/RRH_PTPV2_GRAND_MASTER_IP/param[0]:192.16[num].[num].1[num]) = 'False',0.9054418774835514
+retro_new_firmware.json,present(/RRH_PTPV2_OBSERVATION_TIME) = 'False',0.9054418774835514
+retro_new_firmware.json,value(/RRH_PTPV2_GRAND_MASTER_MODE/param[0]:[num]) = '2',0.9054418774835514
 retro_new_firmware.json,pow2(/RRH_PTPV2_GRAND_MASTER_MODE/param[0]:[num]) = 'True',0.9054418774835514
 retro_new_firmware.json,present(/RRH_PTPV2_JITTER_LEVEL) = 'True',0.9054418774835514
 retro_ptp_domain.json,value(/RRH_PTPV2_SUB_DOMAIN_NUM/param[0]:[num]) = '24',0.9054418774835514
@@ -47,12 +49,12 @@ indicates that in a particular file, the RU frequency was set to `3929700` (kHz)
 
 To view more details about the anomalies and to generate a visual summary, run the same command as before except with an additional `--outliers-html` flag:
 
-```
+```bash
 .\build\diffy.exe --dir .\examples\5GvRAN\ --confidence 0.8 --tokens "num:[0-9]+" --token-costs "0.2" --outliers-path outliers --outliers-html 
 ```
 This generates a file `outliers.html`. When opened in a browser, it will show a visual summary of each configuration outlier. For the discussed anomaly, we see the following summary:
 
-```
+```json
 {
   "Pattern": "3[num]",
   "Parameters": [
@@ -71,7 +73,7 @@ Among a total of 50 configurations, 12 files set the frequency to `3352260`, 37 
 You can view all of the Diffy command line arguments:
 
 ```
-PS > .\build\diffy.exe --help
+.\build\diffy.exe --help
 Diffy.Cli 1.0.0
 Copyright (C) 2024 Diffy.Cli
 
