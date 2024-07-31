@@ -3,8 +3,7 @@
     "datadir": "/var/lib/mysql",
     "socket": "/var/lib/mysql/mysql.sock",
     "user": "mysql",
-    "default-storage-engine": "innodb",
-    "old_passwords": "1"
+    "default-storage-engine": "innodb"
   },
   "mysqld_safe": {
     "log-error": "/var/log/mysqld.log",

@@ -2,7 +2,6 @@
   "client": {
     "default-character-set": "utf8",
     "user": "root",
-    "password": "",
     "host": "127.0.0.1",
     "port": "3306",
     "socket": "/tmp/mysql.sock"

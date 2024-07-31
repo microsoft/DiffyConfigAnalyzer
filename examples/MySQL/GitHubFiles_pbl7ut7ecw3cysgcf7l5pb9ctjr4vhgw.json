@@ -1,10 +1,8 @@
 {
   "client": {
-    "user": "root",
-    "password": "\"{{ mysql_root_password | mandatory }}\""
+    "user": "root"
   },
   "mysql": {
-    "user": "root",
-    "password": "\"{{ mysql_root_password | mandatory }}\""
+    "user": "root"
   }
 }

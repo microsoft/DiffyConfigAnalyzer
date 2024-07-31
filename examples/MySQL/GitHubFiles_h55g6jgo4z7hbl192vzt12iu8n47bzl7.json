@@ -2,7 +2,6 @@
   "client": {
     "user": "{{ pillar['mysql_config']['dbuser'] }}",
     "{% if ['mysql_config']['dbpass'] in pillar %}": "",
-    "password": "{{ pillar['mysql_config']['dbpass'] }}",
     "{% endif %}": "",
     "port": "{{ pillar['mysql_config']['port'] }}",
     "socket": "{{ pillar['mysql_config']['socket'] }}"

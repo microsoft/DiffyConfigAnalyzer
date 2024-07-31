@@ -2,8 +2,7 @@
   "mysqld_multi": {
     "mysqld": "/data/mysql_bin/bin/mysqld_safe",
     "mysqladmin": "/data/mysql_bin/bin/mysqladmin",
-    "user": "root",
-    "password": "xu9aTWDrufqD"
+    "user": "root"
   },
   "mysqld1": {
     "port": "3306",

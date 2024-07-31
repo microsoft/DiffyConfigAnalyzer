@@ -24,7 +24,6 @@
     "thread_stack": "256K",
     "max_allowed_packet": "512M",
     "max_connections": "2500",
-    "old_passwords": "1",
     "tmpdir": "/db/tmpfs01"
   },
   "mysqld_safe": {

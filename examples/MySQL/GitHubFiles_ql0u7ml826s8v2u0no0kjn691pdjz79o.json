@@ -28,7 +28,6 @@
     "datadir": "/var/lib/mysql",
     "socket": "/var/lib/mysql/mysql.sock",
     "user": "mysql",
-    "old_passwords": "1",
     "log-slow-queries": "/var/log/mysql-slow.log",
     "log-queries-not-using-indexes": "0",
     "long_query_time": "5",

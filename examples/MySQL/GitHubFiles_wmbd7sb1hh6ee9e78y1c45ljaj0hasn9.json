@@ -4,7 +4,6 @@
   },
   "client": {
     "user": "root",
-    "password": "pass4r00t",
     "database": "opensips",
     "default-character-set": "utf8"
   }

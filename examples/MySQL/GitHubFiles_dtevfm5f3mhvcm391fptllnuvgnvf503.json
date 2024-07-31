@@ -9,8 +9,7 @@
   "mysqld_multi": {
     "mysqld": "/usr/local/opt/mysql56/bin/mysqld_safe",
     "mysqladmin": "/usr/local/opt/mysql56/bin/mysqladmin",
-    "user": "multi_admin",
-    "password": "multipass"
+    "user": "multi_admin"
   },
   "mysqld1": {
     "server-id": "1",

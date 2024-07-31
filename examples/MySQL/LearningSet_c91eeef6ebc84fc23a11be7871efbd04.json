@@ -30,8 +30,7 @@
     "key_buffer": "1024M",
     "innodb_additional_mem_pool_size": "64M",
     "query_cache_size": "128M",
-    "innodb_flush_log_at_trx_commit": "0",
-    "old-passwords": "1"
+    "innodb_flush_log_at_trx_commit": "0"
   },
   "isamchk": {
     "read_buffer": "16M",

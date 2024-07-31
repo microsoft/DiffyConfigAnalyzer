@@ -44,8 +44,7 @@
     "innodb_file_per_table": "",
     "log-warnings": "",
     "innodb_flush_neighbors": "0",
-    "user": "mysql",
-    "old_passwords": "0"
+    "user": "mysql"
   },
   "mysqld_safe": {
     "syslog": "",

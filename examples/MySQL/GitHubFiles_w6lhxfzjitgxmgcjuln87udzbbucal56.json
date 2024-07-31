@@ -9,7 +9,6 @@
     "datadir": "/home/mysql",
     "socket": "/var/lib/mysql/mysql.sock",
     "pid-file": "/var/lib/mysql/mysqld.pid",
-    "old_passwords": "1",
     "max_connections": "650",
     "myisam_sort_buffer_size": "64M",
     "key_buffer_size": "256M",

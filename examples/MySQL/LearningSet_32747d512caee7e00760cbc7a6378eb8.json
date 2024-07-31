@@ -7,7 +7,6 @@
   "WinMySQLadmin": {
     "server": "C:/apachefriends/xampp/mysql/bin/mysqld.exe",
     "user": "xxxxx",
-    "password": "xxxxxxxxxxxxxxxx",
     "log": "OFF",
     "log_bin": "OFF",
     "log_bin_trust_function_creators": "OFF",

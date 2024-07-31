@@ -3,7 +3,6 @@
     "datadir": "/var/lib/mysql",
     "socket": "/var/lib/mysql/mysql.sock",
     "user": "mysql",
-    "old_passwords": "1",
     "max_connections": "900",
     "query_cache_size": "64M",
     "query_cache_limit": "2M",

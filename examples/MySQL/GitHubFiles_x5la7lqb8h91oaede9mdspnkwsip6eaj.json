@@ -1,7 +1,6 @@
 {
   "client": {
-    "user": "root",
-    "password": "none"
+    "user": "root"
   },
   "mysql": {
     "database": "invenio"

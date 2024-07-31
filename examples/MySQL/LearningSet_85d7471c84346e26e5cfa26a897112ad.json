@@ -6,7 +6,6 @@
     "transaction-isolation": "READ-COMMITTED",
     "skip-locking": "",
     "innodb_file_per_table": "1",
-    "old_passwords": "1",
     "log-bin": "smart-bin",
     "relay-log": "smart2-relay-bin",
     "server-id": "1",

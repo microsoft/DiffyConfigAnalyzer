@@ -55,7 +55,6 @@
     "innodb_autoinc_lock_mode": "2",
     "wsrep_node_address": "<node_ip_address>",
     "wsrep_sst_method": "xtrabackup",
-    "wsrep_cluster_name": "data_cluster",
-    "wsrep_sst_auth": "\"<user>:<password>\""
+    "wsrep_cluster_name": "data_cluster"
   }
 }

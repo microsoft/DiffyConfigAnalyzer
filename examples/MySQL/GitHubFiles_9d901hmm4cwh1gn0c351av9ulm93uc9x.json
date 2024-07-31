@@ -28,7 +28,6 @@
     "join_buffer_size": "8M",
     "open-files": "20000",
     "long_query_time": "1",
-    "old_passwords": "1",
     "big-tables": "",
     "user": "mysql",
     "symbolic-links": "0",

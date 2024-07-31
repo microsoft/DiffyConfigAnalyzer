@@ -1,7 +1,6 @@
 {
   "client": {
-    "user": "root",
-    "password": ""
+    "user": "root"
   },
   "mysqld": {
     "max_allowed_packet": "1024000"

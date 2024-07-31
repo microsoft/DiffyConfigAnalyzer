@@ -4,13 +4,11 @@
     "prompt": "[\\\\R:\\\\m]\\\\_\\\\u\\\\_\\\\d\\\\_$>\\\\_"
   },
   "client": {
-    "host": "localhost",
-    "password": ""
+    "host": "localhost"
   },
   "mysqldump": {
     "quick": "",
     "host": "localhost",
-    "password": "",
     "max_allowed_packet": "256M"
   },
   "mysqlhotcopy": {

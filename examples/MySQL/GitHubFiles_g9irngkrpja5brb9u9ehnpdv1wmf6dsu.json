@@ -5,7 +5,6 @@
     "log-error": "/var/log/mysql/mysqld-error.log",
     "pid-file": "/var/run/mysqld/mysqld.pid",
     "user": "mysql",
-    "old_passwords": "0",
     "key_buffer": "16k",
     "sort_buffer_size": "32K",
     "read_buffer_size": "32K",

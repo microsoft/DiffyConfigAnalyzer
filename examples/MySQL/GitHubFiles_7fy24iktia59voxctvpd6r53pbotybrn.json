@@ -14,7 +14,6 @@
     "long_query_time": "2",
     "slow_query_log_file": "/var/log/mysql/mysql-slow.log",
     "wait_timeout": "20",
-    "old_passwords": "0",
     "max_connections": "120",
     "thread_cache_size": "100",
     "table_open_cache": "8000",

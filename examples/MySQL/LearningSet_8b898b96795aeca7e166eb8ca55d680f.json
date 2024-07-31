@@ -3,7 +3,6 @@
     "datadir": "/var/lib/mysql",
     "socket": "/var/lib/mysql/mysql.sock",
     "user": "mysql",
-    "old_passwords": "1",
     "key_buffer": "16M",
     "key_buffer_size": "4M",
     "sort_buffer_size": "2M",

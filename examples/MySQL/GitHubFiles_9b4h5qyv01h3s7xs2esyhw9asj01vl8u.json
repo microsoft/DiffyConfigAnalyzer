@@ -3,7 +3,6 @@
     "datadir": "/var/lib/mysql",
     "socket": "/var/lib/mysql/mysql.sock",
     "user": "mysql",
-    "old_passwords": "1",
     "skip-name-resolve": "",
     "max_connections": "10000",
     "port": "3306",

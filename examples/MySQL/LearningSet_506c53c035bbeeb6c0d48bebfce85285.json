@@ -4,7 +4,6 @@
     "datadir": "/var/lib/mysql",
     "socket": "/tmp/mysql.sock",
     "log-error": "/var/log/mysqld.log",
-    "old_passwords": "0",
     "max_connections": "1000",
     "table_cache": "1024",
     "max_allowed_packet": "16M",

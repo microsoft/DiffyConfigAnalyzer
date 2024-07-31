@@ -12,7 +12,6 @@
     "datadir": "/data/mysql/django-fac-webstore",
     "socket": "/var/lib/mysql/mysql.sock",
     "user": "mysql",
-    "old_passwords": "1",
     "innodb_buffer_pool_size": "1G",
     "query_cache_type": "1",
     "query_cache_size": "256M",

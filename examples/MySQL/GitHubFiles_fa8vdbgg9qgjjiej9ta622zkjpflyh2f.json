@@ -1,14 +1,11 @@
 {
   "mysql": {
-    "user": "drupal",
-    "password": "vagrant"
+    "user": "drupal"
   },
   "mysqldump": {
-    "user": "drupal",
-    "password": "vagrant"
+    "user": "drupal"
   },
   "mysqladmin": {
-    "user": "root",
-    "password": "vagrant"
+    "user": "root"
   }
 }

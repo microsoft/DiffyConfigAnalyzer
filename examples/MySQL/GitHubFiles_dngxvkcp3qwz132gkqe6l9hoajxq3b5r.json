@@ -19,7 +19,6 @@
     "slow_query_log_file": "/opt/local/var/log/mysql5/mysql_slow.log",
     "log-error": "/opt/local/var/log/mysql5/mysqld_safe.log-error",
     "pid-file": "/opt/local/var/db/mysql5/mysqld.pid",
-    "old_passwords": "0",
     "skip-character-set-client-handshake": "",
     "collation_server": "utf8_general_ci",
     "character_set_server": "utf8",

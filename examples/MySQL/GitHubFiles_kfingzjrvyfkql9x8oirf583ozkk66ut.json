@@ -4,7 +4,6 @@
   },
   "client": {
     "user": "msandbox",
-    "password": "msandbox",
     "port": "5521",
     "socket": "/tmp/mysql_sandbox5521.sock"
   },

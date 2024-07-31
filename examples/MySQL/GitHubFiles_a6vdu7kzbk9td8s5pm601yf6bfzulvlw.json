@@ -5,7 +5,6 @@
     "scratch_path": "/dev/shm/qserv"
   },
   "resultdb": {
-    "passwd": "",
     "db": "qservResult",
     "unix_socket": "/u1/lsst/var/run/mysql.sock",
     "host": "",

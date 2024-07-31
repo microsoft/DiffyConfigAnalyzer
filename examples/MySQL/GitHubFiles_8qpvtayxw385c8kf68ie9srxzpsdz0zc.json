@@ -10,7 +10,6 @@
     "datadir": "/var/lib/mysql",
     "socket": "/var/run/mysqld/mysqld.sock",
     "port": "3306",
-    "old_passwords": "1",
     "skip-locking": "",
     "key_buffer": "128M",
     "max_allowed_packet": "16M",

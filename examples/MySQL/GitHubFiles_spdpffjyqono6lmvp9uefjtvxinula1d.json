@@ -10,7 +10,6 @@
   "client": {
     "host": "localhost",
     "user": "backup",
-    "password": "{{ mysql_backup_password }}",
     "socket": "/var/run/mysqld/mysqld.sock"
   }
 }

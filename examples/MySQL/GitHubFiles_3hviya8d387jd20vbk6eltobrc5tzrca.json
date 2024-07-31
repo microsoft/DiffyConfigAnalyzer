@@ -4,8 +4,7 @@
     "datadir": "/vol/ebs-db/lib/mysql",
     "socket": "/var/lib/mysql/mysql.sock",
     "user": "mysql",
-    "set-variable": "max_connections=1000",
-    "old_passwords": "1"
+    "set-variable": "max_connections=1000"
   },
   "mysqld_safe": {
     "log-error": "/var/log/mysqld.log",

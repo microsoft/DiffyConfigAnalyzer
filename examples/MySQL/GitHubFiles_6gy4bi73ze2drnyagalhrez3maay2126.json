@@ -7,7 +7,6 @@
   "mysqld": {
     "socket": "/var/lib/mysql/mysql.sock",
     "user": "mysql",
-    "old_passwords": "0",
     "character_set_server": "utf8",
     "port": "3306",
     "ft_min_word_len": "1",

@@ -1,6 +1,5 @@
 {
   "client": {
-    "password": "mgtgn123",
     "port": "3306",
     "socket": "/tmp/mysqld.sock"
   },

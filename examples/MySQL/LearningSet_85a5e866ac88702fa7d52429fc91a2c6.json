@@ -27,7 +27,6 @@
     "max_allowed_packet": "5M",
     "sort_buffer": "2M",
     "net_buffer_length": "4K",
-    "old_passwords": "1",
     "wait_timeout": "20",
     "connect_timeout": "60"
   },

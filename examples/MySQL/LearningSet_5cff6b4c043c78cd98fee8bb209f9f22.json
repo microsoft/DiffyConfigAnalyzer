@@ -17,7 +17,6 @@
     "language": "/usr/share/mysql/english",
     "skip-external-locking": "",
     "bind-address": "0.0.0.0",
-    "old_passwords": "1",
     "back_log": "20",
     "max_connections": "60",
     "max_user_connections": "16",

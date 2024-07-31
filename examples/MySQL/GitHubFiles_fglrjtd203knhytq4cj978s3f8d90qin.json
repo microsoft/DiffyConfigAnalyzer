@@ -1,6 +1,5 @@
 {
   "client": {
-    "password": "mysqlfire",
     "port": "3306",
     "socket": "/var/run/mysql/mysql.sock"
   },

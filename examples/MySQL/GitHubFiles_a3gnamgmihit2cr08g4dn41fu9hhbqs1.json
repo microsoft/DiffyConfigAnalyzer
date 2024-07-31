@@ -1,6 +1,5 @@
 {
   "mysqld": {
-    "old_passwords": "true",
     "user": "mysql",
     "pid-file": "/var/run/mysqld/mysqld.pid",
     "skip-external-locking": "",

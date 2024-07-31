@@ -2,7 +2,6 @@
   "mysqld": {
     "tmpdir": "/tmp",
     "open_files_limit": "33628",
-    "old_passwords": "1",
     "datadir": "/var/lib/mysql",
     "skip-locking": "",
     "safe-show-database": "",

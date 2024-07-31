@@ -3,7 +3,6 @@
     "datadir": "/var/lib/mysql",
     "socket": "/var/lib/mysql/mysql.sock",
     "user": "mysql",
-    "old_passwords": "1",
     "innodb_buffer_pool_size": "4G",
     "innodb_additional_mem_pool_size": "20M",
     "innodb_log_file_size": "1G",

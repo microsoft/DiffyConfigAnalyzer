@@ -1,8 +1,7 @@
 {
   "client": {
     "host": "localhost",
-    "user": "root",
-    "password": ""
+    "user": "root"
   },
   "mysql": {
     "pager": "less -n -i -S -F -X",

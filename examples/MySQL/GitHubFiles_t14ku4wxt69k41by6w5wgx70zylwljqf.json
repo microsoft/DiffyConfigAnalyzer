@@ -7,8 +7,7 @@
     "mysqld": "/usr/local/mysql/bin/mysqld_safe",
     "mysqladmin": "/usr/local/mysql/bin/mysqladmin",
     "log": "/var/log/mysqld_multi.log",
-    "user": "multi_admin",
-    "password": "secret"
+    "user": "multi_admin"
   },
   "mysqld": {
     "back_log": "100",

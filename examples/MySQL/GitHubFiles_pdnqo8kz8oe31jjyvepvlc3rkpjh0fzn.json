@@ -6,7 +6,6 @@
     "port": "3306",
     "bind-address": "IP_ADDRESS",
     "max_allowed_packet": "16M",
-    "old_passwords": "1",
     "default-character-set": "utf8",
     "character-set-server": "utf8"
   },

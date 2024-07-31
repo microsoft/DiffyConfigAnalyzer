@@ -2,8 +2,7 @@
   "mysqld": {
     "datadir": "/mysql/data",
     "socket": "/tmp/mysql.sock",
-    "user": "mysql",
-    "old_passwords": "1"
+    "user": "mysql"
   },
   "mysqld_safe": {
     "log-error": "/mysql/logs/mysqld.log",

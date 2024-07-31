@@ -1,8 +1,5 @@
 {
   "client": {
-    "user": "clustercheck",
-    "{{#mysql.clustercheck-password}}": "",
-    "password": "{{.}}",
-    "{{/mysql.clustercheck-password}}": ""
+    "user": "clustercheck"
   }
 }

@@ -1,6 +1,5 @@
 {
   "client": {
-    "user": "root",
-    "password": "abc123"
+    "user": "root"
   }
 }

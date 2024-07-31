@@ -1,7 +1,6 @@
 {
   "client": {
     "user": "'your_user_name'",
-    "password": "'your_password'",
     "database": "'database_name'"
   },
   "mysql": {

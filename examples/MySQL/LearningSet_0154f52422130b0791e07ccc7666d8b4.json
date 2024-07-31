@@ -67,7 +67,6 @@
   "manager": {
     "socket": "/db/log/manager.sock",
     "pid-file": "/db/log/manager.pid",
-    "password-file": "/db/data/.mysqlmanager.passwd",
     "monitoring-interval": "60",
     "port": "1998",
     "bind-address": "tlsgriffin01"

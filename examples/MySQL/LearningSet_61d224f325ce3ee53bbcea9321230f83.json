@@ -5,8 +5,7 @@
     "socket": "/var/lib/mysql/mysql.sock",
     "port": "3306",
     "bind-address": "1xx.1xx.1xx.148",
-    "skip-networking": "",
-    "old_passwords": "1"
+    "skip-networking": ""
   },
   "mysqld_safe": {
     "log-error": "/var/log/mysqld.log",

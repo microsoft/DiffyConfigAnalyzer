@@ -22,7 +22,6 @@
     "server-id": "2401",
     "master-host": "db2",
     "master-user": "replicate",
-    "master-password": "XXXXXXXXXXXXXXXXX",
     "master-connect-retry": "30",
     "log-bin": "",
     "expire_logs_days": "20",

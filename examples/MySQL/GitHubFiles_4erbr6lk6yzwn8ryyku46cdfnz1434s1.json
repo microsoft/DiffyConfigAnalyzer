@@ -1,10 +1,8 @@
 {
   "client": {
-    "user": "misp",
-    "password": "\"{{mysql_misp_password}}\""
+    "user": "misp"
   },
   "mysqldump": {
-    "user": "misp",
-    "password": "\"{{mysql_misp_password}}\""
+    "user": "misp"
   }
 }

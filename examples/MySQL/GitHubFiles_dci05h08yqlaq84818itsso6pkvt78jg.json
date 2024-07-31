@@ -1,14 +1,11 @@
 {
   "mysqldump": {
-    "user": "root",
-    "password": "root_password"
+    "user": "root"
   },
   "mysql": {
-    "user": "root",
-    "password": "root_password"
+    "user": "root"
   },
   "mysqladmin": {
-    "user": "root",
-    "password": "root_password"
+    "user": "root"
   }
 }

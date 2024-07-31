@@ -9,7 +9,6 @@
     "show-warnings": ""
   },
   "client": {
-    "user": "root",
-    "password": "root"
+    "user": "root"
   }
 }

@@ -4,8 +4,7 @@
     "socket": "/var/lib/mysql/mysql.sock",
     "user": "mysql",
     "default-character-set": "utf8",
-    "default-collation": "utf8_general_ci",
-    "old_passwords": "1"
+    "default-collation": "utf8_general_ci"
   },
   "client": {
     "default-character-set": "utf8"

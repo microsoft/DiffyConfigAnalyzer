@@ -5,7 +5,6 @@
     "user": "mysql",
     "symbolic-links": "0",
     "plugin-load": "archive=ha_archive.so;blackhole=ha_blackhole.so",
-    "old_passwords": "1",
     "log-bin": "/var/lib/mysql/mysql-bin",
     "expire_logs_days": "3",
     "binlog-do-db": "asterisk",

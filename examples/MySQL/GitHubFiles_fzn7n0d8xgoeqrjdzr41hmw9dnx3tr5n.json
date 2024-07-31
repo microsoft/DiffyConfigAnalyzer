@@ -1,6 +1,5 @@
 {
   "client": {
-    "user": "root",
-    "password": "{{ lookup('password', 'roles/mysql/files/credentials/root chars=hexdigits') }}"
+    "user": "root"
   }
 }

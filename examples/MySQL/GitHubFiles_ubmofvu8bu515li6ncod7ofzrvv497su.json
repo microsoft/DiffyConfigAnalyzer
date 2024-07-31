@@ -5,7 +5,6 @@
   },
   "mysql": {
     "socket": "/var/lib/mysql/mysql.sock",
-    "user": "my_user",
-    "password": "my_password"
+    "user": "my_user"
   }
 }
